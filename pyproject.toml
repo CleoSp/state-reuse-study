@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "state-repair"
+version = "0.1.0"
+description = "CPU research prototype for selective edit-boundary state repair"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Cleo Spiers"}]
+requires-python = ">=3.11"
+dependencies = ["torch>=2.2", "numpy>=1.24", "PyYAML>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+reports = ["reportlab>=4"]
+
+[project.scripts]
+state-repair = "state_repair.cli:main"
+
+[project.urls]
+Repository = "https://github.com/CleoSp/state-reuse-study"
+Documentation = "https://github.com/CleoSp/state-reuse-study/blob/main/REPRODUCING.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

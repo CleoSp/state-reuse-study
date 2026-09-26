@@ -1,0 +1,1679 @@
+{
+  "synthetic": false,
+  "exploratory": true,
+  "selection": "cases selected after inspecting the full budget curves",
+  "generator": "scripts/extract_budget_diagnostic.py",
+  "generator_sha256": "27274c9aed8b98f3aa8344961baa122da055deb645f77b1debf94903fa4fdd64",
+  "elapsed_seconds": 12.306765199988149,
+  "gpu_seconds": 0,
+  "jobs": [
+    {
+      "job": "test-circuit32-on-circuit32-answer_only-s137-h32",
+      "suite": "circuit32-on-circuit32",
+      "policy": "answer_only",
+      "seed": 137,
+      "raw_records_sha256": "845c9b90724655ca001dcef9b6bf82c99f56e0c236ba69d01a6c193884ef1319",
+      "curves": [
+        {
+          "K": 8,
+          "post_accuracy": 0.999755859375,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 1,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 2,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 3,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 4,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 5,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 6,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 7,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 8,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 9,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 10,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 11,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 12,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 13,
+              "correct": 255,
+              "roots": 256,
+              "accuracy": 0.99609375
+            },
+            {
+              "frame": 14,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 15,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 16,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 17,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 18,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 19,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 20,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 21,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 22,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 23,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 24,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 25,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 26,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 27,
+              "correct": 255,
+              "roots": 256,
+              "accuracy": 0.99609375
+            },
+            {
+              "frame": 28,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 29,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 30,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 31,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 32,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        {
+          "K": 16,
+          "post_accuracy": 0.829833984375,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 206,
+              "roots": 256,
+              "accuracy": 0.8046875
+            },
+            {
+              "frame": 1,
+              "correct": 211,
+              "roots": 256,
+              "accuracy": 0.82421875
+            },
+            {
+              "frame": 2,
+              "correct": 215,
+              "roots": 256,
+              "accuracy": 0.83984375
+            },
+            {
+              "frame": 3,
+              "correct": 216,
+              "roots": 256,
+              "accuracy": 0.84375
+            },
+            {
+              "frame": 4,
+              "correct": 214,
+              "roots": 256,
+              "accuracy": 0.8359375
+            },
+            {
+              "frame": 5,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 6,
+              "correct": 209,
+              "roots": 256,
+              "accuracy": 0.81640625
+            },
+            {
+              "frame": 7,
+              "correct": 215,
+              "roots": 256,
+              "accuracy": 0.83984375
+            },
+            {
+              "frame": 8,
+              "correct": 220,
+              "roots": 256,
+              "accuracy": 0.859375
+            },
+            {
+              "frame": 9,
+              "correct": 219,
+              "roots": 256,
+              "accuracy": 0.85546875
+            },
+            {
+              "frame": 10,
+              "correct": 213,
+              "roots": 256,
+              "accuracy": 0.83203125
+            },
+            {
+              "frame": 11,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 12,
+              "correct": 209,
+              "roots": 256,
+              "accuracy": 0.81640625
+            },
+            {
+              "frame": 13,
+              "correct": 209,
+              "roots": 256,
+              "accuracy": 0.81640625
+            },
+            {
+              "frame": 14,
+              "correct": 204,
+              "roots": 256,
+              "accuracy": 0.796875
+            },
+            {
+              "frame": 15,
+              "correct": 205,
+              "roots": 256,
+              "accuracy": 0.80078125
+            },
+            {
+              "frame": 16,
+              "correct": 205,
+              "roots": 256,
+              "accuracy": 0.80078125
+            },
+            {
+              "frame": 17,
+              "correct": 210,
+              "roots": 256,
+              "accuracy": 0.8203125
+            },
+            {
+              "frame": 18,
+              "correct": 209,
+              "roots": 256,
+              "accuracy": 0.81640625
+            },
+            {
+              "frame": 19,
+              "correct": 207,
+              "roots": 256,
+              "accuracy": 0.80859375
+            },
+            {
+              "frame": 20,
+              "correct": 211,
+              "roots": 256,
+              "accuracy": 0.82421875
+            },
+            {
+              "frame": 21,
+              "correct": 219,
+              "roots": 256,
+              "accuracy": 0.85546875
+            },
+            {
+              "frame": 22,
+              "correct": 214,
+              "roots": 256,
+              "accuracy": 0.8359375
+            },
+            {
+              "frame": 23,
+              "correct": 210,
+              "roots": 256,
+              "accuracy": 0.8203125
+            },
+            {
+              "frame": 24,
+              "correct": 213,
+              "roots": 256,
+              "accuracy": 0.83203125
+            },
+            {
+              "frame": 25,
+              "correct": 220,
+              "roots": 256,
+              "accuracy": 0.859375
+            },
+            {
+              "frame": 26,
+              "correct": 218,
+              "roots": 256,
+              "accuracy": 0.8515625
+            },
+            {
+              "frame": 27,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 28,
+              "correct": 214,
+              "roots": 256,
+              "accuracy": 0.8359375
+            },
+            {
+              "frame": 29,
+              "correct": 209,
+              "roots": 256,
+              "accuracy": 0.81640625
+            },
+            {
+              "frame": 30,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 31,
+              "correct": 217,
+              "roots": 256,
+              "accuracy": 0.84765625
+            },
+            {
+              "frame": 32,
+              "correct": 215,
+              "roots": 256,
+              "accuracy": 0.83984375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job": "test-circuit32-on-circuit32-spatial_gate-s137-h32",
+      "suite": "circuit32-on-circuit32",
+      "policy": "spatial_gate",
+      "seed": 137,
+      "raw_records_sha256": "5997ad58cb7b0bd247f8b6656ad6da0f13993a25cd73f33fe67cb401f621f7d6",
+      "curves": [
+        {
+          "K": 8,
+          "post_accuracy": 1.0,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 1,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 2,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 3,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 4,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 5,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 6,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 7,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 8,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 9,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 10,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 11,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 12,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 13,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 14,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 15,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 16,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 17,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 18,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 19,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 20,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 21,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 22,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 23,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 24,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 25,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 26,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 27,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 28,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 29,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 30,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 31,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 32,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        {
+          "K": 16,
+          "post_accuracy": 0.8465576171875,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 221,
+              "roots": 256,
+              "accuracy": 0.86328125
+            },
+            {
+              "frame": 1,
+              "correct": 216,
+              "roots": 256,
+              "accuracy": 0.84375
+            },
+            {
+              "frame": 2,
+              "correct": 218,
+              "roots": 256,
+              "accuracy": 0.8515625
+            },
+            {
+              "frame": 3,
+              "correct": 215,
+              "roots": 256,
+              "accuracy": 0.83984375
+            },
+            {
+              "frame": 4,
+              "correct": 218,
+              "roots": 256,
+              "accuracy": 0.8515625
+            },
+            {
+              "frame": 5,
+              "correct": 220,
+              "roots": 256,
+              "accuracy": 0.859375
+            },
+            {
+              "frame": 6,
+              "correct": 223,
+              "roots": 256,
+              "accuracy": 0.87109375
+            },
+            {
+              "frame": 7,
+              "correct": 220,
+              "roots": 256,
+              "accuracy": 0.859375
+            },
+            {
+              "frame": 8,
+              "correct": 217,
+              "roots": 256,
+              "accuracy": 0.84765625
+            },
+            {
+              "frame": 9,
+              "correct": 216,
+              "roots": 256,
+              "accuracy": 0.84375
+            },
+            {
+              "frame": 10,
+              "correct": 219,
+              "roots": 256,
+              "accuracy": 0.85546875
+            },
+            {
+              "frame": 11,
+              "correct": 220,
+              "roots": 256,
+              "accuracy": 0.859375
+            },
+            {
+              "frame": 12,
+              "correct": 224,
+              "roots": 256,
+              "accuracy": 0.875
+            },
+            {
+              "frame": 13,
+              "correct": 223,
+              "roots": 256,
+              "accuracy": 0.87109375
+            },
+            {
+              "frame": 14,
+              "correct": 221,
+              "roots": 256,
+              "accuracy": 0.86328125
+            },
+            {
+              "frame": 15,
+              "correct": 218,
+              "roots": 256,
+              "accuracy": 0.8515625
+            },
+            {
+              "frame": 16,
+              "correct": 216,
+              "roots": 256,
+              "accuracy": 0.84375
+            },
+            {
+              "frame": 17,
+              "correct": 218,
+              "roots": 256,
+              "accuracy": 0.8515625
+            },
+            {
+              "frame": 18,
+              "correct": 218,
+              "roots": 256,
+              "accuracy": 0.8515625
+            },
+            {
+              "frame": 19,
+              "correct": 217,
+              "roots": 256,
+              "accuracy": 0.84765625
+            },
+            {
+              "frame": 20,
+              "correct": 218,
+              "roots": 256,
+              "accuracy": 0.8515625
+            },
+            {
+              "frame": 21,
+              "correct": 216,
+              "roots": 256,
+              "accuracy": 0.84375
+            },
+            {
+              "frame": 22,
+              "correct": 214,
+              "roots": 256,
+              "accuracy": 0.8359375
+            },
+            {
+              "frame": 23,
+              "correct": 211,
+              "roots": 256,
+              "accuracy": 0.82421875
+            },
+            {
+              "frame": 24,
+              "correct": 216,
+              "roots": 256,
+              "accuracy": 0.84375
+            },
+            {
+              "frame": 25,
+              "correct": 213,
+              "roots": 256,
+              "accuracy": 0.83203125
+            },
+            {
+              "frame": 26,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 27,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 28,
+              "correct": 214,
+              "roots": 256,
+              "accuracy": 0.8359375
+            },
+            {
+              "frame": 29,
+              "correct": 211,
+              "roots": 256,
+              "accuracy": 0.82421875
+            },
+            {
+              "frame": 30,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 31,
+              "correct": 212,
+              "roots": 256,
+              "accuracy": 0.828125
+            },
+            {
+              "frame": 32,
+              "correct": 217,
+              "roots": 256,
+              "accuracy": 0.84765625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job": "test-circuit32-on-circuit32-restart-s137-h32",
+      "suite": "circuit32-on-circuit32",
+      "policy": "restart",
+      "seed": 137,
+      "raw_records_sha256": "5b6f5f2340edfdb792417533cec77eeb7e6d239863008352eaa8ce1a75149296",
+      "curves": [
+        {
+          "K": 8,
+          "post_accuracy": 1.0,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 1,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 2,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 3,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 4,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 5,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 6,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 7,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 8,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 9,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 10,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 11,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 12,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 13,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 14,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 15,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 16,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 17,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 18,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 19,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 20,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 21,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 22,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 23,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 24,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 25,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 26,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 27,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 28,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 29,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 30,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 31,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 32,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        {
+          "K": 16,
+          "post_accuracy": 1.0,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 1,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 2,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 3,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 4,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 5,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 6,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 7,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 8,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 9,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 10,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 11,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 12,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 13,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 14,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 15,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 16,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 17,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 18,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 19,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 20,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 21,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 22,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 23,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 24,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 25,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 26,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 27,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 28,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 29,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 30,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 31,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            },
+            {
+              "frame": 32,
+              "correct": 256,
+              "roots": 256,
+              "accuracy": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job": "test-maze16-on-maze16-spatial_gate-s71-h32",
+      "suite": "maze16-on-maze16",
+      "policy": "spatial_gate",
+      "seed": 71,
+      "raw_records_sha256": "8e7ed0ddd95a6dfae8e5141091d96c1bc65cf65fa0a619370e781be91b9ed38e",
+      "curves": [
+        {
+          "K": 8,
+          "post_accuracy": 0.919677734375,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 255,
+              "roots": 256,
+              "accuracy": 0.99609375
+            },
+            {
+              "frame": 1,
+              "correct": 253,
+              "roots": 256,
+              "accuracy": 0.98828125
+            },
+            {
+              "frame": 2,
+              "correct": 250,
+              "roots": 256,
+              "accuracy": 0.9765625
+            },
+            {
+              "frame": 3,
+              "correct": 244,
+              "roots": 256,
+              "accuracy": 0.953125
+            },
+            {
+              "frame": 4,
+              "correct": 241,
+              "roots": 256,
+              "accuracy": 0.94140625
+            },
+            {
+              "frame": 5,
+              "correct": 242,
+              "roots": 256,
+              "accuracy": 0.9453125
+            },
+            {
+              "frame": 6,
+              "correct": 241,
+              "roots": 256,
+              "accuracy": 0.94140625
+            },
+            {
+              "frame": 7,
+              "correct": 243,
+              "roots": 256,
+              "accuracy": 0.94921875
+            },
+            {
+              "frame": 8,
+              "correct": 244,
+              "roots": 256,
+              "accuracy": 0.953125
+            },
+            {
+              "frame": 9,
+              "correct": 240,
+              "roots": 256,
+              "accuracy": 0.9375
+            },
+            {
+              "frame": 10,
+              "correct": 241,
+              "roots": 256,
+              "accuracy": 0.94140625
+            },
+            {
+              "frame": 11,
+              "correct": 242,
+              "roots": 256,
+              "accuracy": 0.9453125
+            },
+            {
+              "frame": 12,
+              "correct": 242,
+              "roots": 256,
+              "accuracy": 0.9453125
+            },
+            {
+              "frame": 13,
+              "correct": 242,
+              "roots": 256,
+              "accuracy": 0.9453125
+            },
+            {
+              "frame": 14,
+              "correct": 240,
+              "roots": 256,
+              "accuracy": 0.9375
+            },
+            {
+              "frame": 15,
+              "correct": 235,
+              "roots": 256,
+              "accuracy": 0.91796875
+            },
+            {
+              "frame": 16,
+              "correct": 235,
+              "roots": 256,
+              "accuracy": 0.91796875
+            },
+            {
+              "frame": 17,
+              "correct": 232,
+              "roots": 256,
+              "accuracy": 0.90625
+            },
+            {
+              "frame": 18,
+              "correct": 234,
+              "roots": 256,
+              "accuracy": 0.9140625
+            },
+            {
+              "frame": 19,
+              "correct": 234,
+              "roots": 256,
+              "accuracy": 0.9140625
+            },
+            {
+              "frame": 20,
+              "correct": 233,
+              "roots": 256,
+              "accuracy": 0.91015625
+            },
+            {
+              "frame": 21,
+              "correct": 231,
+              "roots": 256,
+              "accuracy": 0.90234375
+            },
+            {
+              "frame": 22,
+              "correct": 232,
+              "roots": 256,
+              "accuracy": 0.90625
+            },
+            {
+              "frame": 23,
+              "correct": 231,
+              "roots": 256,
+              "accuracy": 0.90234375
+            },
+            {
+              "frame": 24,
+              "correct": 227,
+              "roots": 256,
+              "accuracy": 0.88671875
+            },
+            {
+              "frame": 25,
+              "correct": 223,
+              "roots": 256,
+              "accuracy": 0.87109375
+            },
+            {
+              "frame": 26,
+              "correct": 225,
+              "roots": 256,
+              "accuracy": 0.87890625
+            },
+            {
+              "frame": 27,
+              "correct": 224,
+              "roots": 256,
+              "accuracy": 0.875
+            },
+            {
+              "frame": 28,
+              "correct": 228,
+              "roots": 256,
+              "accuracy": 0.890625
+            },
+            {
+              "frame": 29,
+              "correct": 227,
+              "roots": 256,
+              "accuracy": 0.88671875
+            },
+            {
+              "frame": 30,
+              "correct": 226,
+              "roots": 256,
+              "accuracy": 0.8828125
+            },
+            {
+              "frame": 31,
+              "correct": 226,
+              "roots": 256,
+              "accuracy": 0.8828125
+            },
+            {
+              "frame": 32,
+              "correct": 226,
+              "roots": 256,
+              "accuracy": 0.8828125
+            }
+          ]
+        },
+        {
+          "K": 16,
+          "post_accuracy": 0.564208984375,
+          "frames": [
+            {
+              "frame": 0,
+              "correct": 224,
+              "roots": 256,
+              "accuracy": 0.875
+            },
+            {
+              "frame": 1,
+              "correct": 162,
+              "roots": 256,
+              "accuracy": 0.6328125
+            },
+            {
+              "frame": 2,
+              "correct": 154,
+              "roots": 256,
+              "accuracy": 0.6015625
+            },
+            {
+              "frame": 3,
+              "correct": 153,
+              "roots": 256,
+              "accuracy": 0.59765625
+            },
+            {
+              "frame": 4,
+              "correct": 148,
+              "roots": 256,
+              "accuracy": 0.578125
+            },
+            {
+              "frame": 5,
+              "correct": 144,
+              "roots": 256,
+              "accuracy": 0.5625
+            },
+            {
+              "frame": 6,
+              "correct": 144,
+              "roots": 256,
+              "accuracy": 0.5625
+            },
+            {
+              "frame": 7,
+              "correct": 145,
+              "roots": 256,
+              "accuracy": 0.56640625
+            },
+            {
+              "frame": 8,
+              "correct": 141,
+              "roots": 256,
+              "accuracy": 0.55078125
+            },
+            {
+              "frame": 9,
+              "correct": 141,
+              "roots": 256,
+              "accuracy": 0.55078125
+            },
+            {
+              "frame": 10,
+              "correct": 143,
+              "roots": 256,
+              "accuracy": 0.55859375
+            },
+            {
+              "frame": 11,
+              "correct": 144,
+              "roots": 256,
+              "accuracy": 0.5625
+            },
+            {
+              "frame": 12,
+              "correct": 146,
+              "roots": 256,
+              "accuracy": 0.5703125
+            },
+            {
+              "frame": 13,
+              "correct": 139,
+              "roots": 256,
+              "accuracy": 0.54296875
+            },
+            {
+              "frame": 14,
+              "correct": 150,
+              "roots": 256,
+              "accuracy": 0.5859375
+            },
+            {
+              "frame": 15,
+              "correct": 153,
+              "roots": 256,
+              "accuracy": 0.59765625
+            },
+            {
+              "frame": 16,
+              "correct": 149,
+              "roots": 256,
+              "accuracy": 0.58203125
+            },
+            {
+              "frame": 17,
+              "correct": 146,
+              "roots": 256,
+              "accuracy": 0.5703125
+            },
+            {
+              "frame": 18,
+              "correct": 144,
+              "roots": 256,
+              "accuracy": 0.5625
+            },
+            {
+              "frame": 19,
+              "correct": 154,
+              "roots": 256,
+              "accuracy": 0.6015625
+            },
+            {
+              "frame": 20,
+              "correct": 142,
+              "roots": 256,
+              "accuracy": 0.5546875
+            },
+            {
+              "frame": 21,
+              "correct": 144,
+              "roots": 256,
+              "accuracy": 0.5625
+            },
+            {
+              "frame": 22,
+              "correct": 145,
+              "roots": 256,
+              "accuracy": 0.56640625
+            },
+            {
+              "frame": 23,
+              "correct": 140,
+              "roots": 256,
+              "accuracy": 0.546875
+            },
+            {
+              "frame": 24,
+              "correct": 143,
+              "roots": 256,
+              "accuracy": 0.55859375
+            },
+            {
+              "frame": 25,
+              "correct": 137,
+              "roots": 256,
+              "accuracy": 0.53515625
+            },
+            {
+              "frame": 26,
+              "correct": 137,
+              "roots": 256,
+              "accuracy": 0.53515625
+            },
+            {
+              "frame": 27,
+              "correct": 140,
+              "roots": 256,
+              "accuracy": 0.546875
+            },
+            {
+              "frame": 28,
+              "correct": 142,
+              "roots": 256,
+              "accuracy": 0.5546875
+            },
+            {
+              "frame": 29,
+              "correct": 136,
+              "roots": 256,
+              "accuracy": 0.53125
+            },
+            {
+              "frame": 30,
+              "correct": 144,
+              "roots": 256,
+              "accuracy": 0.5625
+            },
+            {
+              "frame": 31,
+              "correct": 132,
+              "roots": 256,
+              "accuracy": 0.515625
+            },
+            {
+              "frame": 32,
+              "correct": 140,
+              "roots": 256,
+              "accuracy": 0.546875
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "synthetic": false,
+  "saved_record_reproduction": {
+    "episode_rows": 96000,
+    "diagnostic_points": 75,
+    "original_contrasts_reproduced": 60,
+    "raw_samples_rescored": 1125,
+    "output_reuse_contrasts_reproduced": 45,
+    "ordinary_frequencies_reproduced": 6,
+    "tolerance": 1e-12
+  },
+  "timing_validation": {
+    "timing_blocks": 900,
+    "paired_stream_configurations": 150,
+    "prediction_frames_rescored": 4950,
+    "point_estimates_checked": 150,
+    "seeded_interleaved_schedule": "pass",
+    "original_frozen_records": "unchanged",
+    "gpu_job_seconds": 2508.0773992999457,
+    "peak_tensor_bytes": 27293184
+  },
+  "targeted_tests": "......................                                                   [100%]\n22 passed in 4.16s",
+  "full_experiment_rerun": false,
+  "new_training": false,
+  "external_charges_usd": 0,
+  "electricity": "unmeasured"
+}

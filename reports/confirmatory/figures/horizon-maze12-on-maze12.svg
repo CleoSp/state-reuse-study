@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="64" y="24" font-size="15" font-weight="bold" fill="#1B365D">maze12-on-maze12: 32-edit versus 128-edit streams</text>
+<text x="64" y="42" font-size="10" fill="#333">Mean post-edit exact accuracy over the whole stream; dashed lines are the 128-edit streams; five seeds.</text>
+<rect x="64" y="58" width="496" height="316" fill="none" stroke="#999"/>
+<line x1="64" y1="374.0" x2="560" y2="374.0" stroke="#eee"/>
+<text x="58" y="377.5" font-size="9" text-anchor="end">0</text>
+<line x1="64" y1="310.8" x2="560" y2="310.8" stroke="#eee"/>
+<text x="58" y="314.3" font-size="9" text-anchor="end">0.2</text>
+<line x1="64" y1="247.6" x2="560" y2="247.6" stroke="#eee"/>
+<text x="58" y="251.1" font-size="9" text-anchor="end">0.4</text>
+<line x1="64" y1="184.4" x2="560" y2="184.4" stroke="#eee"/>
+<text x="58" y="187.9" font-size="9" text-anchor="end">0.6</text>
+<line x1="64" y1="121.2" x2="560" y2="121.2" stroke="#eee"/>
+<text x="58" y="124.7" font-size="9" text-anchor="end">0.8</text>
+<line x1="64" y1="58.0" x2="560" y2="58.0" stroke="#eee"/>
+<text x="58" y="61.5" font-size="9" text-anchor="end">1</text>
+<line x1="64.0" y1="374" x2="64.0" y2="378" stroke="#999"/>
+<text x="64.0" y="389" font-size="9" text-anchor="middle">1</text>
+<line x1="188.0" y1="374" x2="188.0" y2="378" stroke="#999"/>
+<text x="188.0" y="389" font-size="9" text-anchor="middle">2</text>
+<line x1="312.0" y1="374" x2="312.0" y2="378" stroke="#999"/>
+<text x="312.0" y="389" font-size="9" text-anchor="middle">4</text>
+<line x1="436.0" y1="374" x2="436.0" y2="378" stroke="#999"/>
+<text x="436.0" y="389" font-size="9" text-anchor="middle">8</text>
+<line x1="560.0" y1="374" x2="560.0" y2="378" stroke="#999"/>
+<text x="560.0" y="389" font-size="9" text-anchor="middle">16</text>
+<text x="312.0" y="416" font-size="10" text-anchor="middle">Outer cycles K (log scale)</text>
+<text x="16" y="216.0" font-size="10" text-anchor="middle" transform="rotate(-90 16 216.0)">Mean post-edit exact accuracy</text>
+<path d="M64.0,256.5 L188.0,139.3 L312.0,78.7 L436.0,58.5 L560.0,58.5" fill="none" stroke="#1B365D" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="256.5" r="2.6" fill="#1B365D"/>
+<circle cx="188.0" cy="139.3" r="2.6" fill="#1B365D"/>
+<circle cx="312.0" cy="78.7" r="2.6" fill="#1B365D"/>
+<circle cx="436.0" cy="58.5" r="2.6" fill="#1B365D"/>
+<circle cx="560.0" cy="58.5" r="2.6" fill="#1B365D"/>
+<line x1="574" y1="70" x2="594" y2="70" stroke="#1B365D" stroke-width="2"/>
+<text x="600" y="73.5" font-size="9">restart 32 edits</text>
+<path d="M64.0,255.2 L188.0,155.8 L312.0,93.6 L436.0,58.6 L560.0,58.5" fill="none" stroke="#1B365D" stroke-width="1.8" stroke-dasharray="5,3"/>
+<circle cx="64.0" cy="255.2" r="2.6" fill="#1B365D"/>
+<circle cx="188.0" cy="155.8" r="2.6" fill="#1B365D"/>
+<circle cx="312.0" cy="93.6" r="2.6" fill="#1B365D"/>
+<circle cx="436.0" cy="58.6" r="2.6" fill="#1B365D"/>
+<circle cx="560.0" cy="58.5" r="2.6" fill="#1B365D"/>
+<line x1="574" y1="86" x2="594" y2="86" stroke="#1B365D" stroke-width="2"/>
+<text x="600" y="89.5" font-size="9">restart 128 edits</text>
+<path d="M64.0,104.6 L188.0,81.7 L312.0,69.7 L436.0,65.3 L560.0,65.2" fill="none" stroke="#C25431" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="104.6" r="2.6" fill="#C25431"/>
+<circle cx="188.0" cy="81.7" r="2.6" fill="#C25431"/>
+<circle cx="312.0" cy="69.7" r="2.6" fill="#C25431"/>
+<circle cx="436.0" cy="65.3" r="2.6" fill="#C25431"/>
+<circle cx="560.0" cy="65.2" r="2.6" fill="#C25431"/>
+<line x1="574" y1="102" x2="594" y2="102" stroke="#C25431" stroke-width="2"/>
+<text x="600" y="105.5" font-size="9">carry 32 edits</text>
+<path d="M64.0,102.9 L188.0,83.1 L312.0,72.4 L436.0,68.8 L560.0,68.4" fill="none" stroke="#C25431" stroke-width="1.8" stroke-dasharray="5,3"/>
+<circle cx="64.0" cy="102.9" r="2.6" fill="#C25431"/>
+<circle cx="188.0" cy="83.1" r="2.6" fill="#C25431"/>
+<circle cx="312.0" cy="72.4" r="2.6" fill="#C25431"/>
+<circle cx="436.0" cy="68.8" r="2.6" fill="#C25431"/>
+<circle cx="560.0" cy="68.4" r="2.6" fill="#C25431"/>
+<line x1="574" y1="118" x2="594" y2="118" stroke="#C25431" stroke-width="2"/>
+<text x="600" y="121.5" font-size="9">carry 128 edits</text>
+<path d="M64.0,104.1 L188.0,77.3 L312.0,62.7 L436.0,59.5 L560.0,67.4" fill="none" stroke="#00806C" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="104.1" r="2.6" fill="#00806C"/>
+<circle cx="188.0" cy="77.3" r="2.6" fill="#00806C"/>
+<circle cx="312.0" cy="62.7" r="2.6" fill="#00806C"/>
+<circle cx="436.0" cy="59.5" r="2.6" fill="#00806C"/>
+<circle cx="560.0" cy="67.4" r="2.6" fill="#00806C"/>
+<line x1="574" y1="134" x2="594" y2="134" stroke="#00806C" stroke-width="2"/>
+<text x="600" y="137.5" font-size="9">spatial_gate 32 edits</text>
+<path d="M64.0,99.2 L188.0,75.8 L312.0,62.9 L436.0,60.6 L560.0,68.3" fill="none" stroke="#00806C" stroke-width="1.8" stroke-dasharray="5,3"/>
+<circle cx="64.0" cy="99.2" r="2.6" fill="#00806C"/>
+<circle cx="188.0" cy="75.8" r="2.6" fill="#00806C"/>
+<circle cx="312.0" cy="62.9" r="2.6" fill="#00806C"/>
+<circle cx="436.0" cy="60.6" r="2.6" fill="#00806C"/>
+<circle cx="560.0" cy="68.3" r="2.6" fill="#00806C"/>
+<line x1="574" y1="150" x2="594" y2="150" stroke="#00806C" stroke-width="2"/>
+<text x="600" y="153.5" font-size="9">spatial_gate 128 edits</text>
+<path d="M64.0,130.4 L188.0,82.0 L312.0,62.3 L436.0,58.3 L560.0,58.3" fill="none" stroke="#D81B60" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="130.4" r="2.6" fill="#D81B60"/>
+<circle cx="188.0" cy="82.0" r="2.6" fill="#D81B60"/>
+<circle cx="312.0" cy="62.3" r="2.6" fill="#D81B60"/>
+<circle cx="436.0" cy="58.3" r="2.6" fill="#D81B60"/>
+<circle cx="560.0" cy="58.3" r="2.6" fill="#D81B60"/>
+<line x1="574" y1="166" x2="594" y2="166" stroke="#D81B60" stroke-width="2"/>
+<text x="600" y="169.5" font-size="9">answer_only 32 edits</text>
+<path d="M64.0,140.8 L188.0,78.0 L312.0,62.1 L436.0,58.6 L560.0,58.7" fill="none" stroke="#D81B60" stroke-width="1.8" stroke-dasharray="5,3"/>
+<circle cx="64.0" cy="140.8" r="2.6" fill="#D81B60"/>
+<circle cx="188.0" cy="78.0" r="2.6" fill="#D81B60"/>
+<circle cx="312.0" cy="62.1" r="2.6" fill="#D81B60"/>
+<circle cx="436.0" cy="58.6" r="2.6" fill="#D81B60"/>
+<circle cx="560.0" cy="58.7" r="2.6" fill="#D81B60"/>
+<line x1="574" y1="182" x2="594" y2="182" stroke="#D81B60" stroke-width="2"/>
+<text x="600" y="185.5" font-size="9">answer_only 128 edits</text>
+</svg>

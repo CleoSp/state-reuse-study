@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="64" y="24" font-size="15" font-weight="bold" fill="#1B365D">maze16-on-maze16: post-edit exact accuracy versus amortized cost</text>
+<text x="64" y="42" font-size="10" fill="#333">Batch-64 timing from the accuracy jobs; initial solve included; K in 1,2,4,8,16 left to right; five seeds, 256 test roots.</text>
+<rect x="64" y="58" width="496" height="316" fill="none" stroke="#999"/>
+<line x1="64" y1="374.0" x2="560" y2="374.0" stroke="#eee"/>
+<text x="58" y="377.5" font-size="9" text-anchor="end">0</text>
+<line x1="64" y1="310.8" x2="560" y2="310.8" stroke="#eee"/>
+<text x="58" y="314.3" font-size="9" text-anchor="end">0.2</text>
+<line x1="64" y1="247.6" x2="560" y2="247.6" stroke="#eee"/>
+<text x="58" y="251.1" font-size="9" text-anchor="end">0.4</text>
+<line x1="64" y1="184.4" x2="560" y2="184.4" stroke="#eee"/>
+<text x="58" y="187.9" font-size="9" text-anchor="end">0.6</text>
+<line x1="64" y1="121.2" x2="560" y2="121.2" stroke="#eee"/>
+<text x="58" y="124.7" font-size="9" text-anchor="end">0.8</text>
+<line x1="64" y1="58.0" x2="560" y2="58.0" stroke="#eee"/>
+<text x="58" y="61.5" font-size="9" text-anchor="end">1</text>
+<line x1="190.7" y1="374" x2="190.7" y2="378" stroke="#999"/>
+<text x="190.7" y="389" font-size="9" text-anchor="middle">1</text>
+<line x1="384.6" y1="374" x2="384.6" y2="378" stroke="#999"/>
+<text x="384.6" y="389" font-size="9" text-anchor="middle">2</text>
+<text x="312.0" y="416" font-size="10" text-anchor="middle">Amortized milliseconds per frame (batch 64)</text>
+<text x="16" y="216.0" font-size="10" text-anchor="middle" transform="rotate(-90 16 216.0)">Mean post-edit exact accuracy</text>
+<path d="M102.5,290.7 L133.3,187.3 L190.9,84.1 L306.1,61.1 L547.4,59.1" fill="none" stroke="#1B365D" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="102.5" cy="290.7" r="2.6" fill="#1B365D"/>
+<circle cx="133.3" cy="187.3" r="2.6" fill="#1B365D"/>
+<circle cx="190.9" cy="84.1" r="2.6" fill="#1B365D"/>
+<circle cx="306.1" cy="61.1" r="2.6" fill="#1B365D"/>
+<circle cx="547.4" cy="59.1" r="2.6" fill="#1B365D"/>
+<line x1="574" y1="70" x2="594" y2="70" stroke="#1B365D" stroke-width="2"/>
+<text x="600" y="73.5" font-size="9">restart</text>
+<path d="M106.3,108.7 L136.2,87.2 L190.4,75.0 L310.8,69.3 L551.5,69.0" fill="none" stroke="#C25431" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="106.3" cy="108.7" r="2.6" fill="#C25431"/>
+<circle cx="136.2" cy="87.2" r="2.6" fill="#C25431"/>
+<circle cx="190.4" cy="75.0" r="2.6" fill="#C25431"/>
+<circle cx="310.8" cy="69.3" r="2.6" fill="#C25431"/>
+<circle cx="551.5" cy="69.0" r="2.6" fill="#C25431"/>
+<line x1="574" y1="86" x2="594" y2="86" stroke="#C25431" stroke-width="2"/>
+<text x="600" y="89.5" font-size="9">carry</text>
+<path d="M109.5,141.8 L139.8,102.4 L197.5,76.3 L317.0,67.4 L557.7,108.0" fill="none" stroke="#00806C" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="109.5" cy="141.8" r="2.6" fill="#00806C"/>
+<circle cx="139.8" cy="102.4" r="2.6" fill="#00806C"/>
+<circle cx="197.5" cy="76.3" r="2.6" fill="#00806C"/>
+<circle cx="317.0" cy="67.4" r="2.6" fill="#00806C"/>
+<circle cx="557.7" cy="108.0" r="2.6" fill="#00806C"/>
+<line x1="574" y1="102" x2="594" y2="102" stroke="#00806C" stroke-width="2"/>
+<text x="600" y="105.5" font-size="9">spatial_gate</text>
+<path d="M109.3,117.6 L137.9,92.6 L198.9,80.4 L319.0,74.2 L558.0,72.3" fill="none" stroke="#8264A8" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="109.3" cy="117.6" r="2.6" fill="#8264A8"/>
+<circle cx="137.9" cy="92.6" r="2.6" fill="#8264A8"/>
+<circle cx="198.9" cy="80.4" r="2.6" fill="#8264A8"/>
+<circle cx="319.0" cy="74.2" r="2.6" fill="#8264A8"/>
+<circle cx="558.0" cy="72.3" r="2.6" fill="#8264A8"/>
+<line x1="574" y1="118" x2="594" y2="118" stroke="#8264A8" stroke-width="2"/>
+<text x="600" y="121.5" font-size="9">global_gate</text>
+<path d="M113.4,146.6 L140.8,95.4 L197.8,69.8 L323.9,62.9 L560.0,78.4" fill="none" stroke="#B8860B" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="113.4" cy="146.6" r="2.6" fill="#B8860B"/>
+<circle cx="140.8" cy="95.4" r="2.6" fill="#B8860B"/>
+<circle cx="197.8" cy="69.8" r="2.6" fill="#B8860B"/>
+<circle cx="323.9" cy="62.9" r="2.6" fill="#B8860B"/>
+<circle cx="560.0" cy="78.4" r="2.6" fill="#B8860B"/>
+<line x1="574" y1="134" x2="594" y2="134" stroke="#B8860B" stroke-width="2"/>
+<text x="600" y="137.5" font-size="9">gru_adapter</text>
+<path d="M112.6,197.6 L141.3,119.7 L200.1,97.1 L320.6,87.7 L558.5,96.7" fill="none" stroke="#7A7A7A" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="112.6" cy="197.6" r="2.6" fill="#7A7A7A"/>
+<circle cx="141.3" cy="119.7" r="2.6" fill="#7A7A7A"/>
+<circle cx="200.1" cy="97.1" r="2.6" fill="#7A7A7A"/>
+<circle cx="320.6" cy="87.7" r="2.6" fill="#7A7A7A"/>
+<circle cx="558.5" cy="96.7" r="2.6" fill="#7A7A7A"/>
+<line x1="574" y1="150" x2="594" y2="150" stroke="#7A7A7A" stroke-width="2"/>
+<text x="600" y="153.5" font-size="9">residual_adapter</text>
+<path d="M104.3,174.7 L134.6,110.0 L188.8,69.8 L307.9,61.0 L548.2,59.6" fill="none" stroke="#D81B60" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="104.3" cy="174.7" r="2.6" fill="#D81B60"/>
+<circle cx="134.6" cy="110.0" r="2.6" fill="#D81B60"/>
+<circle cx="188.8" cy="69.8" r="2.6" fill="#D81B60"/>
+<circle cx="307.9" cy="61.0" r="2.6" fill="#D81B60"/>
+<circle cx="548.2" cy="59.6" r="2.6" fill="#D81B60"/>
+<line x1="574" y1="166" x2="594" y2="166" stroke="#D81B60" stroke-width="2"/>
+<text x="600" y="169.5" font-size="9">answer_only</text>
+<circle cx="64.0" cy="58.0" r="4" fill="#000000"/>
+<line x1="574" y1="182" x2="594" y2="182" stroke="#000000" stroke-width="2"/>
+<text x="600" y="185.5" font-size="9">dstar_lite_full_policy (CPU reference)</text>
+</svg>

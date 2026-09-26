@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="64" y="24" font-size="15" font-weight="bold" fill="#1B365D">maze12-on-maze12: batch-one latency by stage</text>
+<text x="64" y="42" font-size="10" fill="#333">Seed-29 checkpoints, 8 test roots, 3 warmed repetitions, device-synchronized; amortized over the initial solve and 32 edits.</text>
+<rect x="64" y="58" width="506" height="302" fill="none" stroke="#999"/>
+<line x1="64" y1="360.0" x2="570" y2="360.0" stroke="#eee"/>
+<text x="58" y="363.5" font-size="9" text-anchor="end">0</text>
+<line x1="64" y1="295.5" x2="570" y2="295.5" stroke="#eee"/>
+<text x="58" y="299.0" font-size="9" text-anchor="end">20</text>
+<line x1="64" y1="231.0" x2="570" y2="231.0" stroke="#eee"/>
+<text x="58" y="234.5" font-size="9" text-anchor="end">40</text>
+<line x1="64" y1="166.6" x2="570" y2="166.6" stroke="#eee"/>
+<text x="58" y="170.1" font-size="9" text-anchor="end">60</text>
+<line x1="64" y1="102.1" x2="570" y2="102.1" stroke="#eee"/>
+<text x="58" y="105.6" font-size="9" text-anchor="end">80</text>
+<rect x="75.2" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="75.2" y="354.0" width="33.7" height="0.6" fill="#C25431"/>
+<rect x="75.2" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="75.2" y="343.8" width="33.7" height="6.0" fill="#8264A8"/>
+<rect x="75.2" y="314.8" width="33.7" height="29.0" fill="#B8860B"/>
+<rect x="75.2" y="312.5" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="75.2" y="287.5" width="33.7" height="25.0" fill="#D81B60"/>
+<rect x="75.2" y="276.6" width="33.7" height="10.9" fill="#4C9BE8"/>
+<rect x="75.2" y="276.3" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="92.1" y="374" font-size="9" text-anchor="middle">restart K1</text>
+<rect x="131.5" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="131.5" y="354.0" width="33.7" height="0.6" fill="#C25431"/>
+<rect x="131.5" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="131.5" y="342.3" width="33.7" height="7.4" fill="#8264A8"/>
+<rect x="131.5" y="313.4" width="33.7" height="28.8" fill="#B8860B"/>
+<rect x="131.5" y="311.2" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="131.5" y="286.2" width="33.7" height="24.9" fill="#D81B60"/>
+<rect x="131.5" y="275.4" width="33.7" height="10.8" fill="#4C9BE8"/>
+<rect x="131.5" y="275.1" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="148.3" y="374" font-size="9" text-anchor="middle">answer_only K1</text>
+<rect x="187.7" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="187.7" y="354.0" width="33.7" height="0.7" fill="#C25431"/>
+<rect x="187.7" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="187.7" y="331.7" width="33.7" height="18.0" fill="#8264A8"/>
+<rect x="187.7" y="302.6" width="33.7" height="29.1" fill="#B8860B"/>
+<rect x="187.7" y="300.3" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="187.7" y="275.3" width="33.7" height="25.1" fill="#D81B60"/>
+<rect x="187.7" y="264.4" width="33.7" height="10.9" fill="#4C9BE8"/>
+<rect x="187.7" y="264.1" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="204.6" y="374" font-size="9" text-anchor="middle">spatial_gate K1</text>
+<rect x="243.9" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="243.9" y="354.0" width="33.7" height="0.6" fill="#C25431"/>
+<rect x="243.9" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="243.9" y="343.7" width="33.7" height="6.0" fill="#8264A8"/>
+<rect x="243.9" y="285.6" width="33.7" height="58.1" fill="#B8860B"/>
+<rect x="243.9" y="283.3" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="243.9" y="258.3" width="33.7" height="25.0" fill="#D81B60"/>
+<rect x="243.9" y="247.4" width="33.7" height="10.9" fill="#4C9BE8"/>
+<rect x="243.9" y="247.0" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="260.8" y="374" font-size="9" text-anchor="middle">restart K2</text>
+<rect x="300.1" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="300.1" y="354.0" width="33.7" height="0.6" fill="#C25431"/>
+<rect x="300.1" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="300.1" y="342.3" width="33.7" height="7.4" fill="#8264A8"/>
+<rect x="300.1" y="284.6" width="33.7" height="57.7" fill="#B8860B"/>
+<rect x="300.1" y="282.4" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="300.1" y="257.4" width="33.7" height="25.0" fill="#D81B60"/>
+<rect x="300.1" y="246.6" width="33.7" height="10.8" fill="#4C9BE8"/>
+<rect x="300.1" y="246.3" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="317.0" y="374" font-size="9" text-anchor="middle">answer_only K2</text>
+<rect x="356.4" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="356.4" y="354.0" width="33.7" height="0.7" fill="#C25431"/>
+<rect x="356.4" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="356.4" y="331.8" width="33.7" height="17.9" fill="#8264A8"/>
+<rect x="356.4" y="274.3" width="33.7" height="57.6" fill="#B8860B"/>
+<rect x="356.4" y="272.0" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="356.4" y="247.1" width="33.7" height="24.9" fill="#D81B60"/>
+<rect x="356.4" y="236.3" width="33.7" height="10.8" fill="#4C9BE8"/>
+<rect x="356.4" y="235.9" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="373.2" y="374" font-size="9" text-anchor="middle">spatial_gate K2</text>
+<rect x="412.6" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="412.6" y="354.0" width="33.7" height="0.6" fill="#C25431"/>
+<rect x="412.6" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="412.6" y="343.8" width="33.7" height="6.0" fill="#8264A8"/>
+<rect x="412.6" y="112.9" width="33.7" height="230.9" fill="#B8860B"/>
+<rect x="412.6" y="110.6" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="412.6" y="85.6" width="33.7" height="25.0" fill="#D81B60"/>
+<rect x="412.6" y="74.7" width="33.7" height="10.9" fill="#4C9BE8"/>
+<rect x="412.6" y="74.4" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="429.4" y="374" font-size="9" text-anchor="middle">restart K8</text>
+<rect x="468.8" y="354.7" width="33.7" height="5.3" fill="#1B365D"/>
+<rect x="468.8" y="354.0" width="33.7" height="0.6" fill="#C25431"/>
+<rect x="468.8" y="349.7" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="468.8" y="342.3" width="33.7" height="7.5" fill="#8264A8"/>
+<rect x="468.8" y="111.2" width="33.7" height="231.1" fill="#B8860B"/>
+<rect x="468.8" y="108.9" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="468.8" y="83.9" width="33.7" height="25.0" fill="#D81B60"/>
+<rect x="468.8" y="73.0" width="33.7" height="10.8" fill="#4C9BE8"/>
+<rect x="468.8" y="72.7" width="33.7" height="0.3" fill="#E58F65"/>
+<text x="485.7" y="374" font-size="9" text-anchor="middle">answer_only K8</text>
+<rect x="525.0" y="354.6" width="33.7" height="5.4" fill="#1B365D"/>
+<rect x="525.0" y="353.9" width="33.7" height="0.7" fill="#C25431"/>
+<rect x="525.0" y="349.6" width="33.7" height="4.3" fill="#00806C"/>
+<rect x="525.0" y="331.4" width="33.7" height="18.2" fill="#8264A8"/>
+<rect x="525.0" y="97.2" width="33.7" height="234.1" fill="#B8860B"/>
+<rect x="525.0" y="94.9" width="33.7" height="2.3" fill="#7A7A7A"/>
+<rect x="525.0" y="69.4" width="33.7" height="25.6" fill="#D81B60"/>
+<rect x="525.0" y="58.4" width="33.7" height="11.0" fill="#4C9BE8"/>
+<rect x="525.0" y="58.0" width="33.7" height="0.4" fill="#E58F65"/>
+<text x="541.9" y="374" font-size="9" text-anchor="middle">spatial_gate K8</text>
+<rect x="584" y="64" width="12" height="12" fill="#1B365D"/>
+<text x="602" y="73.5" font-size="9">edit_and_validation</text>
+<rect x="584" y="80" width="12" height="12" fill="#C25431"/>
+<text x="602" y="89.5" font-size="9">encoder</text>
+<rect x="584" y="96" width="12" height="12" fill="#00806C"/>
+<text x="602" y="105.5" font-size="9">fresh</text>
+<rect x="584" y="112" width="12" height="12" fill="#8264A8"/>
+<text x="602" y="121.5" font-size="9">adapter</text>
+<rect x="584" y="128" width="12" height="12" fill="#B8860B"/>
+<text x="602" y="137.5" font-size="9">core</text>
+<rect x="584" y="144" width="12" height="12" fill="#7A7A7A"/>
+<text x="602" y="153.5" font-size="9">decoder</text>
+<rect x="584" y="160" width="12" height="12" fill="#D81B60"/>
+<text x="602" y="169.5" font-size="9">copy</text>
+<rect x="584" y="176" width="12" height="12" fill="#4C9BE8"/>
+<text x="602" y="185.5" font-size="9">transfer_in</text>
+<rect x="584" y="192" width="12" height="12" fill="#E58F65"/>
+<text x="602" y="201.5" font-size="9">transfer_out</text>
+<text x="16" y="209.0" font-size="10" text-anchor="middle" transform="rotate(-90 16 209.0)">Milliseconds per frame (batch 1)</text>
+</svg>

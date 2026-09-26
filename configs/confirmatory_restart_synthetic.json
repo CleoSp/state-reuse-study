@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "authorization_gpu_hours": 150,
+  "jobs": [
+    {
+      "id": "startup-synthetic",
+      "kind": "synthetic_training",
+      "synthetic": true,
+      "device": "cpu",
+      "seed": 17,
+      "steps": 1200,
+      "step_delay": 0.25,
+      "seconds": 1800,
+      "checkpoint_steps": 20,
+      "checkpoint_seconds": 5
+    }
+  ]
+}

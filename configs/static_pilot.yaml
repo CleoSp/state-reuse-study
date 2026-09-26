@@ -1,0 +1,19 @@
+# DRAFT ONLY: longer runs require a measured plan and explicit approval.
+schema_version: 1
+seed: 17
+device: cpu
+output_dir: runs/static_pilot
+dataset:
+  height: 12
+  width: 12
+  roots: 256
+  edits_per_episode: 4
+model:
+  width: 128
+  heads: 4
+  inner_cycles: 2
+  outer_cycles: 4
+training:
+  steps: 1000
+  batch_size: 8
+  threads: 2

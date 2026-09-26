@@ -1,0 +1,3553 @@
+{
+  "synthetic": false,
+  "exploratory": true,
+  "scope": "own-history previous argmax diagnostic, not cache-only deployment",
+  "sources": {
+    "runs\\confirmatory_v1\\data\\maze12-test.json": "abf1bd7c5cd872f9e80f3c73609fc452fe60e73d9df3c6d3fa1db4f7219f79e6",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s29-h32\\seal.json": "bf1846fdeb99be2dece80b2211a5b2ec52f84e7f5406231d3842e604981b1625",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s29-h32\\steps.jsonl.gz": "da4ec2c3c4e253a492045e43ca0f557ed86e33b24d52eb565de8cb5719b9e2bc",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s43-h32\\seal.json": "e84611ced458aa12641d2f15cedb7ad2276d22a5d5b52c7be7bb25732b7888e2",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s43-h32\\steps.jsonl.gz": "82592170b36b30b93dced2048c8b89b903c44b85d8886a9984d6c9c1ef5ee4da",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s71-h32\\seal.json": "cd722a29675e17218890d372aac600831ef1acaf79abf2f409748f3e9b25bfed",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s71-h32\\steps.jsonl.gz": "fd27b847675c47d18da49c3d5b1f01869cc4c40d5a038dcaefe74e60fcc8f2bd",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s101-h32\\seal.json": "718c956ba50dab751aead70a8e35b342767231f644fa5f09520186d39aa65a2d",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s101-h32\\steps.jsonl.gz": "7fb5856ccbac7c722c6cfe09a930b7487b8c01021ee798b4fb55e8292ba0e99d",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s137-h32\\seal.json": "9b4050bf13e80f4627c9aa2a5214c3e2955bc57d40ccce492fea4baef6520e32",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-restart-s137-h32\\steps.jsonl.gz": "c9a7cd4757675dd7421ac249bca1422b91456114a283ebaa570cdd053c3f1235",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s29-h32\\seal.json": "8cd367361f54f5e405edbdb0b1d72313e883198b0de5d58bcf43fb221bff7891",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s29-h32\\steps.jsonl.gz": "2f67604b92f16c43ce086e7527df70d699e4f9b493d078928250327d09e883d7",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s43-h32\\seal.json": "8e96d0f70633b2f4b9015d34aeb37131daca28a1160670a3d3a513471a9339db",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s43-h32\\steps.jsonl.gz": "e6f888aaa2b07795f859af0fb37f7d126d8d1e063a4fe0868cc92aebebb84de6",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s71-h32\\seal.json": "62cbcee25fec37013d41a7b7583d96ec3caa946fb4faf96b0252db0cb8f8149a",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s71-h32\\steps.jsonl.gz": "dce001b791a29bdd2f0e63881ff5b052dbd5a1e4a1c010b17eab45f2cc0b140e",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s101-h32\\seal.json": "632f8892fed227dd0f37ba23abd2160347fb71d17cc2041eceabb008365f9423",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s101-h32\\steps.jsonl.gz": "1a3db3e6bac6ee7e5ead9b60b1417946287c576261963222f87aa5f16af071ae",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s137-h32\\seal.json": "8ee9f868b8afac56f804556a7e878fe1439fb42d357cf097f93d4c1bd1960060",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-carry-s137-h32\\steps.jsonl.gz": "52578ccae3209db697f184776f24e584f967808d1633cccdb63354a8ced42814",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s29-h32\\seal.json": "2404e94862a6634b7c160faacab04f0e044e5df13b389ce6cba14976eace1a20",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s29-h32\\steps.jsonl.gz": "5cd5164ea1a973f9175f02b48d2f63a4f64f37b31797feeda776193e6a5ddca5",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s43-h32\\seal.json": "177ba593bddb73a7aa85bedc1e2bc945f694e821dc78c9f17068685487598d01",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s43-h32\\steps.jsonl.gz": "60e1f12331912e76542883b973e33f329bd361a816f531c797bef5d5d8ad75b8",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s71-h32\\seal.json": "93fc2438ca277659112ded26e42fb6c8159f0365cf2b30592d70af7df588179d",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s71-h32\\steps.jsonl.gz": "c79ea9f3fe7be94e3f0ff8ae27981e7a0db2bba3cb3a9f72ceb509290d4b4ccb",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s101-h32\\seal.json": "a0c558674acfe02d62a6068eb9532d861a86e1de94a9f3b2027301f20e4c8a77",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s101-h32\\steps.jsonl.gz": "bcf42ae738adc2bf62666825ab027796d4297714631bc4f39bcb8f1a95ac762e",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s137-h32\\seal.json": "50050f951b3a3a338118bfa8def4934f5aae712db611facc5a43c7c37d991ba9",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-spatial_gate-s137-h32\\steps.jsonl.gz": "62ee6c4b1b6affc0e822effdeba91aff927a88611133b85267b95aa528d579fe",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s29-h32\\seal.json": "0ce1821114fb6dffc9e346225cc44ee15f1de3fc826f16c5646c5b93f1fba44e",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s29-h32\\steps.jsonl.gz": "9b372ccbed210636bb1e0e81d97a5fe2396fb1e1128086e68c25a9e54e247f53",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s43-h32\\seal.json": "9f5487cfb46546036263c440a2b2f73749e0bbeff5e924f9cfe6a22a59013764",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s43-h32\\steps.jsonl.gz": "c73d239c55153550376b2df2fc5497def28234bc370a08f48059e5a1e8e81ee2",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s71-h32\\seal.json": "a236b2ec93d6df88446478511c3b553ce6ef34f41e0d26a29a69e88285b7e74d",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s71-h32\\steps.jsonl.gz": "0eee92b8e92cea7a11aa51d4fe3bb0431df928385efc16ec7640bb9998333ddf",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s101-h32\\seal.json": "3598a3d4d9bb48b7ca3c607fdbff7e1956491a2a6f151f52e3d3ebadb268b8da",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s101-h32\\steps.jsonl.gz": "6c1a68447f4b153e41c293eadb79fce03e76531869bc49b3c3a6d8671b477594",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s137-h32\\seal.json": "16700c774de764fc5fce5f0c58c4f436b231a2b57625c318e4b2dcf1c41e8e9c",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-global_gate-s137-h32\\steps.jsonl.gz": "de51b40baa651a8f70ea444370d40f9bebacdf197a9e6f4ba8877fafef441863",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s29-h32\\seal.json": "23bf5fd3b18b8a76ca5e5737d5c3e0cc79019556c5e3ee60a6f787a45665639f",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s29-h32\\steps.jsonl.gz": "a460cc04c39bce2b7386e44cedc61f0ed193c2faacd51beb7792989a09ed0168",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s43-h32\\seal.json": "3a9dfc09e0b64a42b4650c6f5e62a2ee08df5f768b41746d526ccd3aeaddff23",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s43-h32\\steps.jsonl.gz": "cfe20eaff2bde0e5d996fdafd3087ba8790e7ac0a75fd0b5cae8382f604f0703",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s71-h32\\seal.json": "e97c4efc493aaf7e247e36fe256c088aa84a7e5f09934ecd60bd9778630425dc",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s71-h32\\steps.jsonl.gz": "d5d93bf50763584e9603ee480e50c9cb7cf6132185b183eb99dd155e7e00ec01",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s101-h32\\seal.json": "eaca60458a2ce791327ee6f91e787e7b78ac53fc0e5cd9680db6c21023872fd0",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s101-h32\\steps.jsonl.gz": "2c5bf4242620dda4bda86b12f68fd0be11bac847c667494c27f935c6e785d7d8",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s137-h32\\seal.json": "96230ce1cb38d96f56b8cea71d478a9b7046300aaac72a3861eb6ecc455098c7",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-gru_adapter-s137-h32\\steps.jsonl.gz": "6fe66ba800a20a7668ac352ed0621f604bfa703ba1a5ae3650fc1a5e1b539ff4",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s29-h32\\seal.json": "7239bdf5111107c34966d151e349b1fc947b6890f0238d6cc6940f5be2784f8d",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s29-h32\\steps.jsonl.gz": "4d830a94d120b4d02b972b7e88628b852cf532c7cc18a177f0ae823f45c49e1e",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s43-h32\\seal.json": "c48f1975b185cf49402e93723475ba810ef62cd0ecff434994fa938c3a0cc12d",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s43-h32\\steps.jsonl.gz": "b6a2a27a2014c576a6811055aae90809e19bed4a2014651caf4bcfcc7c1bba07",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s71-h32\\seal.json": "9ae9bf22e01b7e57fa429c628eaf7f83bf66bb1c1d3f1a3233a5df118e9c1426",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s71-h32\\steps.jsonl.gz": "eb66910b797b67701fd410c3a95c41eda1cd6d53c5393755b739c11136753c3b",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s101-h32\\seal.json": "36ee169e8dd057bd43f2f9131a18e805dc947396b08f908d37c3af13ca567b10",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s101-h32\\steps.jsonl.gz": "034f54095087e64324f3d40bd78dd912c4cd0e2ba4cc5d4bf946806309b4ea0d",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s137-h32\\seal.json": "61f4b195112f4a474742f9b7ce97e053a4b03dc641658ab0faa77133a42e4a2b",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-residual_adapter-s137-h32\\steps.jsonl.gz": "d4f3e7d242536bb69100dbf15166d98250eca3046acea7c1b411afc4f4a9f74b",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s29-h32\\seal.json": "8b34774fde4b2eb669ee2c0180eb00e40bb25b0904ed83772b043ebe82db5c2c",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s29-h32\\steps.jsonl.gz": "d882595f00afab91f30c8584ff24842b68a2d15655806cfe1ed1028a3d0de284",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s43-h32\\seal.json": "75409bd3da69343985919b60408fde9680248b4646d0007738037b3a894004d4",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s43-h32\\steps.jsonl.gz": "6b1f223d69ef0cc474a5513915890afc38bed14f4db452b9cb40376b47cd5239",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s71-h32\\seal.json": "c786dd32c7ecd69ee647fb670a3ed62d69cfb2e6b3de31218908daecfa3a5512",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s71-h32\\steps.jsonl.gz": "a0771e0c85a371de7e566aaf6a0199cc9c72473d6b79361ed1e7307525ad6e91",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s101-h32\\seal.json": "bba17815d62a05fd391d8a3f2af9dcb9072ac5d183a6bb3300f6a3186d16f5c9",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s101-h32\\steps.jsonl.gz": "a3f8ec5bb33f87891a71700cbe50a630ffe22387d3c0167b0c34b7a3c0fe14f3",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s137-h32\\seal.json": "f3850c2c9cae328132d428be85db35849028fbdd83cbc2741c77771e7877ab78",
+    "runs\\confirmatory_v1\\test-maze12-on-maze12-answer_only-s137-h32\\steps.jsonl.gz": "a633fd91d1114455e839996ffa7a4e36f14c824f5c2dc913c60df8ac04ed95cc",
+    "runs\\confirmatory_v1\\data\\circuit32-test.json": "2400a6e6b134ae9238c8c329698196b049081dac247e90c0b52f17a80034b130",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s29-h32\\seal.json": "d4bc50941fef5ecf1f257f29b390053861311f68eba665446445cb0abb58526c",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s29-h32\\steps.jsonl.gz": "b64561c38b95e580433a1505aa61962dce5f855a3df1c9d61c7d888214d97552",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s43-h32\\seal.json": "e2ce5e3c0a9058d5e786d9a85068a44cac9dae4897d6ae769689a111acf7d046",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s43-h32\\steps.jsonl.gz": "ecfc9712a1a645c55d441b6cc12299fb46ac4a7504950fde993013c7a3173e28",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s71-h32\\seal.json": "802ba676070f9317ff68394065fe18439efaa58060536442d2a36acc9153a48e",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s71-h32\\steps.jsonl.gz": "40aa7d053eed5b67fa1e6244797166a1f58d075e2f48b1a258d2de45aee538b3",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s101-h32\\seal.json": "38eef02367dd8bf0d4bed7fa44c33a11752f695e62990f89c98dd784cc54ad2c",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s101-h32\\steps.jsonl.gz": "b4afe163b8beb3d44ff247d25a0913d303d3597da1dea0e3dbc1b6a82d871c4f",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s137-h32\\seal.json": "16e582fd9e9df01d3fff957cde3b2b6e2c754cc39af68e4c53868d701073e5c3",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-restart-s137-h32\\steps.jsonl.gz": "aee320a39fb5e892bbeae0d7274dc811df8c5980cdfa2477b309080f9de179e4",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s29-h32\\seal.json": "1c828a01567cdf41c84d9f7c55be8e9be7f894de7d08c4e45d816a9be9456258",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s29-h32\\steps.jsonl.gz": "3361fc9d9339c7f4275f68ebd7397e6d0cfef510f2b370809c7b52050a2d38bd",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s43-h32\\seal.json": "0bc6438f90b40f518a7b62c1a8e3bba8516805ab79f06aadca6aa8c1309442b5",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s43-h32\\steps.jsonl.gz": "5d4b8ec7daa41d88faabaf8d81e43e76376109b66eac2098f3ce8196c18e3784",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s71-h32\\seal.json": "be99d99cedab4b5f334168286250bd827b801fbe43b87268418b4044c3089827",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s71-h32\\steps.jsonl.gz": "69db9e8ad3ddd2b9c52b4edd520c9e0c132d60057d09e2fc3654e1c893c63615",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s101-h32\\seal.json": "a7834f84093ec3f49e0396f810d1524c1697560d8ccf1e2309713cbb512eca94",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s101-h32\\steps.jsonl.gz": "fd10c2d753fad9e0ba746b348f94fd02dff2879b6c425bf2554b3c4efdccd165",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s137-h32\\seal.json": "75a00f1bfb6028d7d2348cc5e6e28685edd134c6f8f3a336c76974d1820b15b5",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-carry-s137-h32\\steps.jsonl.gz": "44decbb6a3406cafb44cf32fbb599a53bcda428cf00d019336634d02e7cdd478",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s29-h32\\seal.json": "94997834cdb17170922e73f1cc64c0dbb33cca12964d3e3b921a2fdd511863a3",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s29-h32\\steps.jsonl.gz": "cd6acd4e1f241d4598a0dcf47e597a4031b4593b6d92e81feee2b47cb92b6435",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s43-h32\\seal.json": "417ac28e1a7e81b7d0abeefab0538e123ca4d37977c94d3ad2fb5b398ccad0c8",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s43-h32\\steps.jsonl.gz": "cd520def1915365b04bfb83a7d19afa4628ed8bd105eaa10af5e4126d73f867d",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s71-h32\\seal.json": "eb5367ff6c7d045012aa0663e097fce700aefedc60f78481e96756e2afef052b",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s71-h32\\steps.jsonl.gz": "2837913b8d65b20ec347367ef029c47f823f84f62b02c5f2dfee855c41543dad",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s101-h32\\seal.json": "c35be351a9e466733261c900a27d370e99d9b69be4b2cd39d1a6b8be3efa1c77",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s101-h32\\steps.jsonl.gz": "440e6268c0035a1e2aac8563af5dc75c1d9962cd2597eccb7b24a1ae9f66d0fe",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s137-h32\\seal.json": "353be06615ee5d7ac9696cc5f61ed765733ab6b5e90efd105bb16f62cd555575",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-spatial_gate-s137-h32\\steps.jsonl.gz": "a93c3237f0535ffac7d39017c5cbb44f0f387575838044e931f8115d4e202510",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s29-h32\\seal.json": "ecb1946710705dd2a54a5dc1e2afad5396d624446d9a02443a2c3e080f030165",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s29-h32\\steps.jsonl.gz": "ed3bc28607b5750cb02442444817703d2177ecc7cfcd8c75e39f876721a4d09b",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s43-h32\\seal.json": "42dd81e75d71d5f0b3f70f07614d9ea2780ed98d93989285d79d4cd0c679472c",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s43-h32\\steps.jsonl.gz": "faf4545debd766e42ea0e5a0e74c4d9350a523a867cfdd317d1f68a6251f7821",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s71-h32\\seal.json": "113083159c2e6902c0b842a826190d4b9ab2fed561cd76f202729dddcb3a7f07",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s71-h32\\steps.jsonl.gz": "df71d4107cf9497914dc3324729702eb93b3e425a286666cbe20f04b7a653d7c",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s101-h32\\seal.json": "fd7ba5e29bd0448bd320a821b86390241d86a830c4943f032715075fa947bacc",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s101-h32\\steps.jsonl.gz": "0e5c393cd72334c7ae6b34f67e6b6ed6efabf68a17ffe3948eb615e2e7fea3cc",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s137-h32\\seal.json": "4da2e76fb37b84e270fd26373d39c79b1aedaf542417353f8d9c6ebdaad8d426",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit32-answer_only-s137-h32\\steps.jsonl.gz": "34d6418fa0e281fd44dacc5de90c18183f310c449993f0e0ad0f6f6bab957ba6",
+    "runs\\confirmatory_v1\\data\\circuit48-test.json": "82cd01ca536cafbda179fcdc91eb3558f3b42417524e93fe9a563f9b2bd219f9",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s29-h32\\seal.json": "e9afcdca60c40d6c1ae19a6ae6d72e9345d0b6e3a16ed53adb67f9e99d3b6aae",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s29-h32\\steps.jsonl.gz": "2a59611b731af060fc6b401dbf2bc3f7d5f332f1fbd894d2a530b13ab4caaf9f",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s43-h32\\seal.json": "3392a1f67b6e713b3ca954da092b460c6c84e77da359705232f5b921f38b5e0a",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s43-h32\\steps.jsonl.gz": "ea31bfe7bb16a5691c3b0355a5f2e05602ddfc0ba110bcfbc0935e269907a206",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s71-h32\\seal.json": "e7a04d8e125a274666c52a8a90447dffb1f99e91224aca5fd0d2efddfc0d7c86",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s71-h32\\steps.jsonl.gz": "69bc71f9dd968fe988e35047ffe427712dad822330a0929f1b53c0f77f83a7a3",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s101-h32\\seal.json": "385a13f02ea8a26a1d931844f8a39ddafe4b219cd30b4bcb5cf5e890bdd642f1",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s101-h32\\steps.jsonl.gz": "047a8515875b68b869384bf374292476725152bdfc6f69fa05e1f89308971df9",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s137-h32\\seal.json": "d26b12810e67f8793dcaa98132d60b7e1db46509e34daee5eacf41db5ee0c02e",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-restart-s137-h32\\steps.jsonl.gz": "80b243bab3af941fe83d4fc8dc81e15fc5ea050ffe27cfc604e9fce8b51f9a01",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s29-h32\\seal.json": "8156b66c56ead75d1e1cdda9173b5e4b647f1584ee97506ee4fa4c53f5f96117",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s29-h32\\steps.jsonl.gz": "8f63380d1933cd563d17e1149f5f296d0791566509cfec40157ff3ab475a5e44",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s43-h32\\seal.json": "98aba819c1ff6bed6646d46e0be81f51f1baa20fc91c0c8c8c50a9993b4ebc1d",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s43-h32\\steps.jsonl.gz": "cd8f07834af9d2397abd9925446aebbf633aafbc285f47171b3b616c4ec42d1b",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s71-h32\\seal.json": "04c631b1f32e88cfd87839d8573e8de75cf49a323f9fb68e97e1355527f0f34d",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s71-h32\\steps.jsonl.gz": "0539977feaec9c40006975fd908c610b8c00024e05360e853930df29df5a2648",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s101-h32\\seal.json": "135fb97236c197b6f6c56aaac71b51f06930590426e7571535b269a5d7e5ea42",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s101-h32\\steps.jsonl.gz": "3e6f04fbb968103ec4da99f520df6480b5add8cf0cfda44fa454946212a21fe0",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s137-h32\\seal.json": "cf9d0b54011bff45e1e510ed8b74dff84bf96e22bd0549c3d8b454a663fe4221",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-carry-s137-h32\\steps.jsonl.gz": "7a9cabf59277d9b4154f7cd04692d6316bb7cae2144b4392c76d79eec3d0514b",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s29-h32\\seal.json": "d1abd11925042450770d4023627c657f03ab960527fc3e6e53993c1f8c7aba31",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s29-h32\\steps.jsonl.gz": "4595bc11e4e0d42e9e0fa7a7fc2625c0a890a5b4ac179477356fd998a4b21ff0",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s43-h32\\seal.json": "7257ce58c5fad5350d1aa39822d6c7d521b349c115e3fdf53967ef9acede1e7c",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s43-h32\\steps.jsonl.gz": "70b5e54b71fff585eb7a310964d4abaabd2e9be16d1cdeed604571352d70497e",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s71-h32\\seal.json": "6d9f146106ce4bd7d979209741de50ca5aaa61ce600a9025f18a23d7ebfbfb90",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s71-h32\\steps.jsonl.gz": "9030e0ec49341a14147afe35fd82a02e7764e6612512cd4dda14c95f8323d739",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s101-h32\\seal.json": "f0f8f2ef49257882a8d1dbed53aa5cb656a8bf799acd7bfba4d4458ff17384ef",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s101-h32\\steps.jsonl.gz": "0ea749e4253509d09b96e0f9216e590fef4ec3d9b1b7ab80eebc1aa9de066982",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s137-h32\\seal.json": "ea87fe2d47df3bc52197cb8f4264705a3c55a221a361a8f8fc92228a5c863cf1",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-spatial_gate-s137-h32\\steps.jsonl.gz": "a4b8f83831de0aeb39675a843a193c28274f1899cce8cc97b881c8fd220caeea",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s29-h32\\seal.json": "7ae5ebbdbad9573bdb0136e1da871c421695af43476bf402fb616a39eea00b86",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s29-h32\\steps.jsonl.gz": "edc6a8cbf2f3682db8b33172fafe4dc6009652fb73030ab30729bbda195dba0f",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s43-h32\\seal.json": "6dce219fc930dde8cc289e3cfd0100c62b0a2550f8de680af136e873cae2fc80",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s43-h32\\steps.jsonl.gz": "dbe6cf7db7f782dcf8cf7833981e6c5447af60abc75aa7b945123e6233b992ba",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s71-h32\\seal.json": "365f833d4b361c147c5171ca2d071d1a067fd2419e51a7a88321da9f596efdef",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s71-h32\\steps.jsonl.gz": "89b54b5d071fb35720b4b6f28ce0b6a811a0ff7308ad87259954f22453ae3b6b",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s101-h32\\seal.json": "1fb1c9d4af1e464d0a24a5d468206b62e629af8a047d00ed0bf56a8b1644a174",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s101-h32\\steps.jsonl.gz": "e1a9c15ff8a77dab30dc422a85a78d670ffb98627963ffae10b202d50feae08d",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s137-h32\\seal.json": "79e39d70e812b53c436254c53ace4bd2cb5249f79c14e8a15903c1779f03bd8f",
+    "runs\\confirmatory_v1\\test-circuit32-on-circuit48-answer_only-s137-h32\\steps.jsonl.gz": "03071e0dc92dffc839b883b7a316d6b7e10a5c6173b1da7bf5af3537a6c3c345",
+    "runs\\confirmatory_v1\\data\\maze16-test.json": "e47c8d968b650b438173d952d848c229971b578aac317066f4ad9d4693534488",
+    "runs\\confirmatory_v1\\data\\circuit64-test.json": "cd219860a67f0f3b6fff4f9c4308465a18d515218c9950ab6f87fa5ceb11096c",
+    "runs\\confirmatory_v1\\data\\circuit96-test.json": "a35c8a5da6785862d027249b1525a8b86951ecd6179dc4b758a15171beec46bd"
+  },
+  "results": [
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "restart",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        14728,
+        497,
+        124,
+        25611
+      ],
+      "previous_accuracy": 0.36259765625,
+      "post_accuracy": 0.3717041015625,
+      "repair_rate": 0.019036310709361116,
+      "break_rate": 0.008349043899811474,
+      "gain": {
+        "delta": 0.0091064453125,
+        "root_ci": [
+          0.007006835937500001,
+          0.0113525390625
+        ],
+        "crossed_ci": [
+          0.0067626953125,
+          0.0116455078125
+        ],
+        "per_seed_delta": [
+          0.009765625,
+          0.007568359375,
+          0.0081787109375,
+          0.0096435546875,
+          0.0103759765625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "restart",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        29239,
+        1186,
+        114,
+        10421
+      ],
+      "previous_accuracy": 0.7166259765625,
+      "post_accuracy": 0.7427978515625,
+      "repair_rate": 0.10217971913500473,
+      "break_rate": 0.003883759751984465,
+      "gain": {
+        "delta": 0.026171875,
+        "root_ci": [
+          0.022509765625,
+          0.029931640625
+        ],
+        "crossed_ci": [
+          0.0223388671875,
+          0.030126953125
+        ],
+        "per_seed_delta": [
+          0.0264892578125,
+          0.02392578125,
+          0.0267333984375,
+          0.026611328125,
+          0.027099609375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "restart",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        36285,
+        1989,
+        90,
+        2596
+      ],
+      "previous_accuracy": 0.8880615234375,
+      "post_accuracy": 0.934423828125,
+      "repair_rate": 0.4338058887677208,
+      "break_rate": 0.002474226804123711,
+      "gain": {
+        "delta": 0.0463623046875,
+        "root_ci": [
+          0.0409417724609375,
+          0.052050781250000004
+        ],
+        "crossed_ci": [
+          0.040771484375,
+          0.0522216796875
+        ],
+        "per_seed_delta": [
+          0.04638671875,
+          0.043701171875,
+          0.0465087890625,
+          0.048095703125,
+          0.047119140625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "restart",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38710,
+        2181,
+        9,
+        60
+      ],
+      "previous_accuracy": 0.9452880859375,
+      "post_accuracy": 0.9983154296875,
+      "repair_rate": 0.9732262382864793,
+      "break_rate": 0.00023244401973191456,
+      "gain": {
+        "delta": 0.05302734375,
+        "root_ci": [
+          0.047216796875,
+          0.059106445312500006
+        ],
+        "crossed_ci": [
+          0.0472406005859375,
+          0.0591552734375
+        ],
+        "per_seed_delta": [
+          0.05322265625,
+          0.0526123046875,
+          0.052734375,
+          0.0538330078125,
+          0.052734375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "restart",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38709,
+        2180,
+        11,
+        60
+      ],
+      "previous_accuracy": 0.9453125,
+      "post_accuracy": 0.9982666015625,
+      "repair_rate": 0.9732142857142857,
+      "break_rate": 0.0002840909090909091,
+      "gain": {
+        "delta": 0.0529541015625,
+        "root_ci": [
+          0.0471435546875,
+          0.059033813476562495
+        ],
+        "crossed_ci": [
+          0.04716796875,
+          0.0590576171875
+        ],
+        "per_seed_delta": [
+          0.05322265625,
+          0.0526123046875,
+          0.052734375,
+          0.0537109375,
+          0.052490234375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "carry",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        32449,
+        2473,
+        178,
+        5860
+      ],
+      "previous_accuracy": 0.7965576171875,
+      "post_accuracy": 0.852587890625,
+      "repair_rate": 0.296771870874835,
+      "break_rate": 0.0054556042541453395,
+      "gain": {
+        "delta": 0.0560302734375,
+        "root_ci": [
+          0.051318359375,
+          0.0607666015625
+        ],
+        "crossed_ci": [
+          0.051025390625,
+          0.061181640625
+        ],
+        "per_seed_delta": [
+          0.05615234375,
+          0.0587158203125,
+          0.053466796875,
+          0.0567626953125,
+          0.0550537109375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "carry",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        35701,
+        2189,
+        128,
+        2942
+      ],
+      "previous_accuracy": 0.8747314453125,
+      "post_accuracy": 0.925048828125,
+      "repair_rate": 0.4266224907425453,
+      "break_rate": 0.003572525049540875,
+      "gain": {
+        "delta": 0.0503173828125,
+        "root_ci": [
+          0.045166015625,
+          0.05568908691406249
+        ],
+        "crossed_ci": [
+          0.044921875,
+          0.05595703125
+        ],
+        "per_seed_delta": [
+          0.05029296875,
+          0.05322265625,
+          0.0478515625,
+          0.0499267578125,
+          0.05029296875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "carry",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        37328,
+        2118,
+        115,
+        1399
+      ],
+      "previous_accuracy": 0.9141357421875,
+      "post_accuracy": 0.963037109375,
+      "repair_rate": 0.6022177992607336,
+      "break_rate": 0.003071335096012606,
+      "gain": {
+        "delta": 0.0489013671875,
+        "root_ci": [
+          0.0437493896484375,
+          0.0542724609375
+        ],
+        "crossed_ci": [
+          0.0436279296875,
+          0.054419555664062494
+        ],
+        "per_seed_delta": [
+          0.0484619140625,
+          0.051025390625,
+          0.048583984375,
+          0.0482177734375,
+          0.0482177734375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "carry",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        37860,
+        2154,
+        83,
+        863
+      ],
+      "previous_accuracy": 0.9263427734375,
+      "post_accuracy": 0.976904296875,
+      "repair_rate": 0.7139542591978787,
+      "break_rate": 0.002187491763961732,
+      "gain": {
+        "delta": 0.0505615234375,
+        "root_ci": [
+          0.0451171875,
+          0.056250610351562494
+        ],
+        "crossed_ci": [
+          0.044873046875,
+          0.0564208984375
+        ],
+        "per_seed_delta": [
+          0.0513916015625,
+          0.0523681640625,
+          0.0511474609375,
+          0.0489501953125,
+          0.0489501953125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "carry",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        37875,
+        2150,
+        79,
+        856
+      ],
+      "previous_accuracy": 0.926611328125,
+      "post_accuracy": 0.9771728515625,
+      "repair_rate": 0.7152361942781105,
+      "break_rate": 0.0020814670390472676,
+      "gain": {
+        "delta": 0.0505615234375,
+        "root_ci": [
+          0.0450439453125,
+          0.05634765625
+        ],
+        "crossed_ci": [
+          0.0447998046875,
+          0.056494140625
+        ],
+        "per_seed_delta": [
+          0.0511474609375,
+          0.052734375,
+          0.051025390625,
+          0.0487060546875,
+          0.0491943359375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "spatial_gate",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        32169,
+        2814,
+        658,
+        5319
+      ],
+      "previous_accuracy": 0.8014404296875,
+      "post_accuracy": 0.8540771484375,
+      "repair_rate": 0.34599778679454074,
+      "break_rate": 0.020044475584122826,
+      "gain": {
+        "delta": 0.05263671875,
+        "root_ci": [
+          0.04807128906250001,
+          0.0573004150390625
+        ],
+        "crossed_ci": [
+          0.0466064453125,
+          0.05908264160156249
+        ],
+        "per_seed_delta": [
+          0.0484619140625,
+          0.0599365234375,
+          0.05029296875,
+          0.05615234375,
+          0.04833984375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "spatial_gate",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        36168,
+        2287,
+        250,
+        2255
+      ],
+      "previous_accuracy": 0.889111328125,
+      "post_accuracy": 0.9388427734375,
+      "repair_rate": 0.5035226772346983,
+      "break_rate": 0.0068647372178593,
+      "gain": {
+        "delta": 0.0497314453125,
+        "root_ci": [
+          0.044482421875000004,
+          0.0551763916015625
+        ],
+        "crossed_ci": [
+          0.043994140625,
+          0.0556640625
+        ],
+        "per_seed_delta": [
+          0.048095703125,
+          0.05419921875,
+          0.04638671875,
+          0.0489501953125,
+          0.051025390625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "spatial_gate",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38164,
+        2191,
+        81,
+        524
+      ],
+      "previous_accuracy": 0.9337158203125,
+      "post_accuracy": 0.9852294921875,
+      "repair_rate": 0.8069981583793738,
+      "break_rate": 0.0021179239116224345,
+      "gain": {
+        "delta": 0.051513671875,
+        "root_ci": [
+          0.04599609375000001,
+          0.057226562499999994
+        ],
+        "crossed_ci": [
+          0.0458984375,
+          0.057373046875
+        ],
+        "per_seed_delta": [
+          0.05078125,
+          0.05224609375,
+          0.0499267578125,
+          0.0523681640625,
+          0.05224609375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "spatial_gate",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38598,
+        2168,
+        11,
+        183
+      ],
+      "previous_accuracy": 0.9426025390625,
+      "post_accuracy": 0.995263671875,
+      "repair_rate": 0.9221607826456827,
+      "break_rate": 0.00028490766401616203,
+      "gain": {
+        "delta": 0.0526611328125,
+        "root_ci": [
+          0.0469482421875,
+          0.0585693359375
+        ],
+        "crossed_ci": [
+          0.046923828125,
+          0.058642578125
+        ],
+        "per_seed_delta": [
+          0.052978515625,
+          0.0518798828125,
+          0.052001953125,
+          0.0537109375,
+          0.052734375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "spatial_gate",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        37610,
+        2138,
+        56,
+        1156
+      ],
+      "previous_accuracy": 0.919580078125,
+      "post_accuracy": 0.97041015625,
+      "repair_rate": 0.6490588949605343,
+      "break_rate": 0.0014867519779111135,
+      "gain": {
+        "delta": 0.050830078125,
+        "root_ci": [
+          0.0452392578125,
+          0.056640625
+        ],
+        "crossed_ci": [
+          0.0445068359375,
+          0.05737365722656249
+        ],
+        "per_seed_delta": [
+          0.052978515625,
+          0.051513671875,
+          0.0445556640625,
+          0.052978515625,
+          0.0521240234375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "global_gate",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        32427,
+        2869,
+        611,
+        5053
+      ],
+      "previous_accuracy": 0.806591796875,
+      "post_accuracy": 0.86171875,
+      "repair_rate": 0.362156021206766,
+      "break_rate": 0.01849385556026394,
+      "gain": {
+        "delta": 0.055126953125,
+        "root_ci": [
+          0.05029296875,
+          0.06005920410156249
+        ],
+        "crossed_ci": [
+          0.0471435546875,
+          0.06237854003906249
+        ],
+        "per_seed_delta": [
+          0.0428466796875,
+          0.0611572265625,
+          0.0594482421875,
+          0.053955078125,
+          0.0582275390625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "global_gate",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        36523,
+        2345,
+        197,
+        1895
+      ],
+      "previous_accuracy": 0.896484375,
+      "post_accuracy": 0.94892578125,
+      "repair_rate": 0.5530660377358491,
+      "break_rate": 0.005364923747276688,
+      "gain": {
+        "delta": 0.05244140625,
+        "root_ci": [
+          0.046875,
+          0.058251953125000006
+        ],
+        "crossed_ci": [
+          0.0467529296875,
+          0.0583984375
+        ],
+        "per_seed_delta": [
+          0.0501708984375,
+          0.0531005859375,
+          0.0528564453125,
+          0.052734375,
+          0.0533447265625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "global_gate",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38229,
+        2207,
+        67,
+        457
+      ],
+      "previous_accuracy": 0.9349609375,
+      "post_accuracy": 0.98720703125,
+      "repair_rate": 0.8284534534534534,
+      "break_rate": 0.001749529977021099,
+      "gain": {
+        "delta": 0.05224609375,
+        "root_ci": [
+          0.046533203125,
+          0.0581298828125
+        ],
+        "crossed_ci": [
+          0.0464593505859375,
+          0.0582275390625
+        ],
+        "per_seed_delta": [
+          0.05224609375,
+          0.0511474609375,
+          0.0521240234375,
+          0.0538330078125,
+          0.0518798828125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "global_gate",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38666,
+        2170,
+        16,
+        108
+      ],
+      "previous_accuracy": 0.944384765625,
+      "post_accuracy": 0.99697265625,
+      "repair_rate": 0.9525899912203687,
+      "break_rate": 0.0004136290781241921,
+      "gain": {
+        "delta": 0.052587890625,
+        "root_ci": [
+          0.046826171875,
+          0.0585205078125
+        ],
+        "crossed_ci": [
+          0.04677734375,
+          0.0585693359375
+        ],
+        "per_seed_delta": [
+          0.053466796875,
+          0.0518798828125,
+          0.0521240234375,
+          0.0528564453125,
+          0.0526123046875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "global_gate",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38202,
+        2195,
+        58,
+        505
+      ],
+      "previous_accuracy": 0.93408203125,
+      "post_accuracy": 0.9862548828125,
+      "repair_rate": 0.812962962962963,
+      "break_rate": 0.0015159435441714584,
+      "gain": {
+        "delta": 0.0521728515625,
+        "root_ci": [
+          0.046435546875000004,
+          0.058081054687499994
+        ],
+        "crossed_ci": [
+          0.0463623046875,
+          0.05813049316406249
+        ],
+        "per_seed_delta": [
+          0.05224609375,
+          0.0521240234375,
+          0.0528564453125,
+          0.05126953125,
+          0.0523681640625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "gru_adapter",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        33454,
+        2642,
+        283,
+        4581
+      ],
+      "previous_accuracy": 0.8236572265625,
+      "post_accuracy": 0.88125,
+      "repair_rate": 0.3657759933545618,
+      "break_rate": 0.00838841627886297,
+      "gain": {
+        "delta": 0.0575927734375,
+        "root_ci": [
+          0.0523681640625,
+          0.06289123535156249
+        ],
+        "crossed_ci": [
+          0.0494378662109375,
+          0.0650634765625
+        ],
+        "per_seed_delta": [
+          0.0631103515625,
+          0.0606689453125,
+          0.0455322265625,
+          0.0567626953125,
+          0.0618896484375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "gru_adapter",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        36173,
+        2266,
+        196,
+        2325
+      ],
+      "previous_accuracy": 0.8879150390625,
+      "post_accuracy": 0.9384521484375,
+      "repair_rate": 0.4935743846656502,
+      "break_rate": 0.005389205092248894,
+      "gain": {
+        "delta": 0.050537109375,
+        "root_ci": [
+          0.0451171875,
+          0.056298828125
+        ],
+        "crossed_ci": [
+          0.043359375,
+          0.057349243164062494
+        ],
+        "per_seed_delta": [
+          0.05322265625,
+          0.0537109375,
+          0.0413818359375,
+          0.0511474609375,
+          0.05322265625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "gru_adapter",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38064,
+        2184,
+        79,
+        633
+      ],
+      "previous_accuracy": 0.9312255859375,
+      "post_accuracy": 0.9826171875,
+      "repair_rate": 0.7752928647497338,
+      "break_rate": 0.0020711532915607058,
+      "gain": {
+        "delta": 0.0513916015625,
+        "root_ci": [
+          0.04587402343750001,
+          0.057202148437499996
+        ],
+        "crossed_ci": [
+          0.045703125,
+          0.05732421875
+        ],
+        "per_seed_delta": [
+          0.0521240234375,
+          0.051513671875,
+          0.049560546875,
+          0.051025390625,
+          0.052734375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "gru_adapter",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38563,
+        2169,
+        17,
+        211
+      ],
+      "previous_accuracy": 0.94189453125,
+      "post_accuracy": 0.99443359375,
+      "repair_rate": 0.911344537815126,
+      "break_rate": 0.0004406428201140487,
+      "gain": {
+        "delta": 0.0525390625,
+        "root_ci": [
+          0.046875,
+          0.0584228515625
+        ],
+        "crossed_ci": [
+          0.046728515625,
+          0.058544921875
+        ],
+        "per_seed_delta": [
+          0.0535888671875,
+          0.0523681640625,
+          0.0511474609375,
+          0.0533447265625,
+          0.05224609375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "gru_adapter",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38279,
+        2153,
+        27,
+        501
+      ],
+      "previous_accuracy": 0.935205078125,
+      "post_accuracy": 0.987109375,
+      "repair_rate": 0.8112283345892992,
+      "break_rate": 0.0007048504150785778,
+      "gain": {
+        "delta": 0.051904296875,
+        "root_ci": [
+          0.0462158203125,
+          0.057861328125
+        ],
+        "crossed_ci": [
+          0.0460443115234375,
+          0.05798400878906249
+        ],
+        "per_seed_delta": [
+          0.0535888671875,
+          0.0513916015625,
+          0.050537109375,
+          0.0526123046875,
+          0.0513916015625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "residual_adapter",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        24533,
+        1948,
+        700,
+        13779
+      ],
+      "previous_accuracy": 0.6160400390625,
+      "post_accuracy": 0.6465087890625,
+      "repair_rate": 0.12386341959687162,
+      "break_rate": 0.027741449688899456,
+      "gain": {
+        "delta": 0.03046875,
+        "root_ci": [
+          0.026659545898437498,
+          0.03442443847656249
+        ],
+        "crossed_ci": [
+          0.0218011474609375,
+          0.03828125
+        ],
+        "per_seed_delta": [
+          0.016357421875,
+          0.0325927734375,
+          0.026611328125,
+          0.0374755859375,
+          0.039306640625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "residual_adapter",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        34480,
+        2119,
+        301,
+        4060
+      ],
+      "previous_accuracy": 0.8491455078125,
+      "post_accuracy": 0.8935302734375,
+      "repair_rate": 0.3429357501213789,
+      "break_rate": 0.008654150254449268,
+      "gain": {
+        "delta": 0.044384765625,
+        "root_ci": [
+          0.039477539062500004,
+          0.049414062499999994
+        ],
+        "crossed_ci": [
+          0.03916015625,
+          0.0497802734375
+        ],
+        "per_seed_delta": [
+          0.041015625,
+          0.043701171875,
+          0.044921875,
+          0.0460205078125,
+          0.0462646484375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "residual_adapter",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        37805,
+        2142,
+        100,
+        913
+      ],
+      "previous_accuracy": 0.9254150390625,
+      "post_accuracy": 0.9752685546875,
+      "repair_rate": 0.7011456628477906,
+      "break_rate": 0.002638174383326738,
+      "gain": {
+        "delta": 0.049853515625,
+        "root_ci": [
+          0.044580078125000006,
+          0.0552734375
+        ],
+        "crossed_ci": [
+          0.04443359375,
+          0.05534729003906249
+        ],
+        "per_seed_delta": [
+          0.0496826171875,
+          0.0499267578125,
+          0.0501708984375,
+          0.0482177734375,
+          0.05126953125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "residual_adapter",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38283,
+        2131,
+        34,
+        512
+      ],
+      "previous_accuracy": 0.9354736328125,
+      "post_accuracy": 0.986669921875,
+      "repair_rate": 0.8062807415815362,
+      "break_rate": 0.0008873346034397265,
+      "gain": {
+        "delta": 0.0511962890625,
+        "root_ci": [
+          0.045703125000000004,
+          0.0569580078125
+        ],
+        "crossed_ci": [
+          0.0456787109375,
+          0.056982421875
+        ],
+        "per_seed_delta": [
+          0.050537109375,
+          0.0511474609375,
+          0.0511474609375,
+          0.051513671875,
+          0.0516357421875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "residual_adapter",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        37159,
+        2136,
+        129,
+        1536
+      ],
+      "previous_accuracy": 0.9103515625,
+      "post_accuracy": 0.9593505859375,
+      "repair_rate": 0.5816993464052288,
+      "break_rate": 0.00345955803475649,
+      "gain": {
+        "delta": 0.0489990234375,
+        "root_ci": [
+          0.043725585937500006,
+          0.0544189453125
+        ],
+        "crossed_ci": [
+          0.043505859375,
+          0.05473693847656249
+        ],
+        "per_seed_delta": [
+          0.046875,
+          0.0474853515625,
+          0.050537109375,
+          0.0498046875,
+          0.05029296875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "answer_only",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        29285,
+        2287,
+        393,
+        8995
+      ],
+      "previous_accuracy": 0.724560546875,
+      "post_accuracy": 0.77080078125,
+      "repair_rate": 0.20271228505584116,
+      "break_rate": 0.013242132219152235,
+      "gain": {
+        "delta": 0.046240234375,
+        "root_ci": [
+          0.041723632812499994,
+          0.050878906249999994
+        ],
+        "crossed_ci": [
+          0.0412841796875,
+          0.0513427734375
+        ],
+        "per_seed_delta": [
+          0.044921875,
+          0.05029296875,
+          0.0462646484375,
+          0.0447998046875,
+          0.044921875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "answer_only",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        35580,
+        2263,
+        248,
+        2869
+      ],
+      "previous_accuracy": 0.87470703125,
+      "post_accuracy": 0.9239013671875,
+      "repair_rate": 0.44095869056897896,
+      "break_rate": 0.006921960477838562,
+      "gain": {
+        "delta": 0.0491943359375,
+        "root_ci": [
+          0.043969726562500006,
+          0.054663085937499994
+        ],
+        "crossed_ci": [
+          0.0439202880859375,
+          0.0546875
+        ],
+        "per_seed_delta": [
+          0.049072265625,
+          0.0491943359375,
+          0.049072265625,
+          0.0491943359375,
+          0.0494384765625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "answer_only",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38206,
+        2201,
+        97,
+        456
+      ],
+      "previous_accuracy": 0.9351318359375,
+      "post_accuracy": 0.9864990234375,
+      "repair_rate": 0.828377869777945,
+      "break_rate": 0.002532438712372399,
+      "gain": {
+        "delta": 0.0513671875,
+        "root_ci": [
+          0.045751953125,
+          0.0571533203125
+        ],
+        "crossed_ci": [
+          0.0456781005859375,
+          0.0572265625
+        ],
+        "per_seed_delta": [
+          0.051025390625,
+          0.05078125,
+          0.052001953125,
+          0.05078125,
+          0.05224609375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "answer_only",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38741,
+        2178,
+        2,
+        39
+      ],
+      "previous_accuracy": 0.9458740234375,
+      "post_accuracy": 0.9989990234375,
+      "repair_rate": 0.9824086603518268,
+      "break_rate": 5.162222853160571e-05,
+      "gain": {
+        "delta": 0.053125,
+        "root_ci": [
+          0.047314453125,
+          0.0591796875
+        ],
+        "crossed_ci": [
+          0.0473626708984375,
+          0.059228515625
+        ],
+        "per_seed_delta": [
+          0.05322265625,
+          0.0526123046875,
+          0.0537109375,
+          0.0533447265625,
+          0.052734375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "maze12-on-maze12",
+      "policy": "answer_only",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        38734,
+        2183,
+        9,
+        34
+      ],
+      "previous_accuracy": 0.9458740234375,
+      "post_accuracy": 0.9989501953125,
+      "repair_rate": 0.9846639603067208,
+      "break_rate": 0.0002323000283922257,
+      "gain": {
+        "delta": 0.053076171875,
+        "root_ci": [
+          0.0472900390625,
+          0.0591064453125
+        ],
+        "crossed_ci": [
+          0.0472894287109375,
+          0.059130859375
+        ],
+        "per_seed_delta": [
+          0.0535888671875,
+          0.0523681640625,
+          0.0533447265625,
+          0.05322265625,
+          0.0528564453125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "restart",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13185,
+        27311,
+        39,
+        425
+      ],
+      "previous_accuracy": 0.3228515625,
+      "post_accuracy": 0.988671875,
+      "repair_rate": 0.9846769541390251,
+      "break_rate": 0.0029491833030852997,
+      "gain": {
+        "delta": 0.6658203125,
+        "root_ci": [
+          0.652392578125,
+          0.6796875
+        ],
+        "crossed_ci": [
+          0.6523187255859375,
+          0.6798095703125
+        ],
+        "per_seed_delta": [
+          0.6685791015625,
+          0.666259765625,
+          0.6607666015625,
+          0.666748046875,
+          0.666748046875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "restart",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13391,
+        27557,
+        1,
+        11
+      ],
+      "previous_accuracy": 0.326953125,
+      "post_accuracy": 0.99970703125,
+      "repair_rate": 0.9996009866511898,
+      "break_rate": 7.467144563918757e-05,
+      "gain": {
+        "delta": 0.67275390625,
+        "root_ci": [
+          0.6600830078125,
+          0.6856445312499999
+        ],
+        "crossed_ci": [
+          0.66005859375,
+          0.6856689453125
+        ],
+        "per_seed_delta": [
+          0.6729736328125,
+          0.6729736328125,
+          0.6727294921875,
+          0.672119140625,
+          0.6729736328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "restart",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13391,
+        27557,
+        1,
+        11
+      ],
+      "previous_accuracy": 0.326953125,
+      "post_accuracy": 0.99970703125,
+      "repair_rate": 0.9996009866511898,
+      "break_rate": 7.467144563918757e-05,
+      "gain": {
+        "delta": 0.67275390625,
+        "root_ci": [
+          0.6600830078125,
+          0.6856445312499999
+        ],
+        "crossed_ci": [
+          0.66005859375,
+          0.6856689453125
+        ],
+        "per_seed_delta": [
+          0.6729736328125,
+          0.6729736328125,
+          0.6727294921875,
+          0.672119140625,
+          0.6729736328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "restart",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13391,
+        27557,
+        1,
+        11
+      ],
+      "previous_accuracy": 0.326953125,
+      "post_accuracy": 0.99970703125,
+      "repair_rate": 0.9996009866511898,
+      "break_rate": 7.467144563918757e-05,
+      "gain": {
+        "delta": 0.67275390625,
+        "root_ci": [
+          0.6600830078125,
+          0.6856445312499999
+        ],
+        "crossed_ci": [
+          0.66005859375,
+          0.6856689453125
+        ],
+        "per_seed_delta": [
+          0.6729736328125,
+          0.6729736328125,
+          0.6727294921875,
+          0.672119140625,
+          0.6729736328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "restart",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13391,
+        27557,
+        1,
+        11
+      ],
+      "previous_accuracy": 0.326953125,
+      "post_accuracy": 0.99970703125,
+      "repair_rate": 0.9996009866511898,
+      "break_rate": 7.467144563918757e-05,
+      "gain": {
+        "delta": 0.67275390625,
+        "root_ci": [
+          0.6600830078125,
+          0.6856445312499999
+        ],
+        "crossed_ci": [
+          0.66005859375,
+          0.6856689453125
+        ],
+        "per_seed_delta": [
+          0.6729736328125,
+          0.6729736328125,
+          0.6727294921875,
+          0.672119140625,
+          0.6729736328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "carry",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        8486,
+        16960,
+        256,
+        15258
+      ],
+      "previous_accuracy": 0.213427734375,
+      "post_accuracy": 0.621240234375,
+      "repair_rate": 0.5264138059469862,
+      "break_rate": 0.029283916723861818,
+      "gain": {
+        "delta": 0.4078125,
+        "root_ci": [
+          0.39833984375,
+          0.4173828125
+        ],
+        "crossed_ci": [
+          0.326024169921875,
+          0.4903814697265625
+        ],
+        "per_seed_delta": [
+          0.5389404296875,
+          0.467529296875,
+          0.2752685546875,
+          0.4183349609375,
+          0.3389892578125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "carry",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        12133,
+        25134,
+        144,
+        3549
+      ],
+      "previous_accuracy": 0.2997314453125,
+      "post_accuracy": 0.9098388671875,
+      "repair_rate": 0.8762681727852735,
+      "break_rate": 0.011729249816730472,
+      "gain": {
+        "delta": 0.610107421875,
+        "root_ci": [
+          0.5982904052734375,
+          0.622265625
+        ],
+        "crossed_ci": [
+          0.551024169921875,
+          0.6545904541015625
+        ],
+        "per_seed_delta": [
+          0.6549072265625,
+          0.6533203125,
+          0.4969482421875,
+          0.64404296875,
+          0.601318359375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "carry",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        12785,
+        26491,
+        102,
+        1582
+      ],
+      "previous_accuracy": 0.3146240234375,
+      "post_accuracy": 0.95888671875,
+      "repair_rate": 0.9436469205286218,
+      "break_rate": 0.007914953053464732,
+      "gain": {
+        "delta": 0.6442626953125,
+        "root_ci": [
+          0.6315667724609375,
+          0.656982421875
+        ],
+        "crossed_ci": [
+          0.6159173583984375,
+          0.6687261962890625
+        ],
+        "per_seed_delta": [
+          0.6593017578125,
+          0.6663818359375,
+          0.597412109375,
+          0.6650390625,
+          0.6331787109375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "carry",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        12973,
+        26883,
+        112,
+        992
+      ],
+      "previous_accuracy": 0.3194580078125,
+      "post_accuracy": 0.973046875,
+      "repair_rate": 0.9644125560538117,
+      "break_rate": 0.008559419182269774,
+      "gain": {
+        "delta": 0.6535888671875,
+        "root_ci": [
+          0.640869140625,
+          0.6663336181640626
+        ],
+        "crossed_ci": [
+          0.6351806640625,
+          0.6716070556640625
+        ],
+        "per_seed_delta": [
+          0.6573486328125,
+          0.67041015625,
+          0.6319580078125,
+          0.6663818359375,
+          0.641845703125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "carry",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        12974,
+        26824,
+        96,
+        1066
+      ],
+      "previous_accuracy": 0.319091796875,
+      "post_accuracy": 0.971630859375,
+      "repair_rate": 0.9617784152025816,
+      "break_rate": 0.007345065034429992,
+      "gain": {
+        "delta": 0.6525390625,
+        "root_ci": [
+          0.6398675537109374,
+          0.6654296875000001
+        ],
+        "crossed_ci": [
+          0.6343499755859375,
+          0.6703863525390625
+        ],
+        "per_seed_delta": [
+          0.654541015625,
+          0.670166015625,
+          0.6312255859375,
+          0.664306640625,
+          0.6424560546875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "spatial_gate",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13309,
+        27389,
+        11,
+        251
+      ],
+      "previous_accuracy": 0.3251953125,
+      "post_accuracy": 0.993603515625,
+      "repair_rate": 0.9909189580318379,
+      "break_rate": 0.0008258258258258258,
+      "gain": {
+        "delta": 0.668408203125,
+        "root_ci": [
+          0.6555175781250001,
+          0.68173828125
+        ],
+        "crossed_ci": [
+          0.65546875,
+          0.6817626953125
+        ],
+        "per_seed_delta": [
+          0.670166015625,
+          0.670166015625,
+          0.6654052734375,
+          0.668701171875,
+          0.6676025390625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "spatial_gate",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13394,
+        27551,
+        0,
+        15
+      ],
+      "previous_accuracy": 0.327001953125,
+      "post_accuracy": 0.9996337890625,
+      "repair_rate": 0.9994558514111587,
+      "break_rate": 0.0,
+      "gain": {
+        "delta": 0.6726318359375,
+        "root_ci": [
+          0.6599853515625,
+          0.6855712890625
+        ],
+        "crossed_ci": [
+          0.6599853515625,
+          0.6855224609375
+        ],
+        "per_seed_delta": [
+          0.672607421875,
+          0.6728515625,
+          0.672607421875,
+          0.672119140625,
+          0.6729736328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "spatial_gate",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13395,
+        27554,
+        0,
+        11
+      ],
+      "previous_accuracy": 0.3270263671875,
+      "post_accuracy": 0.9997314453125,
+      "repair_rate": 0.9996009432251043,
+      "break_rate": 0.0,
+      "gain": {
+        "delta": 0.672705078125,
+        "root_ci": [
+          0.6600579833984375,
+          0.6856689453125
+        ],
+        "crossed_ci": [
+          0.6600335693359375,
+          0.685572509765625
+        ],
+        "per_seed_delta": [
+          0.6728515625,
+          0.6729736328125,
+          0.6727294921875,
+          0.6719970703125,
+          0.6729736328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "spatial_gate",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13395,
+        27554,
+        0,
+        11
+      ],
+      "previous_accuracy": 0.3270263671875,
+      "post_accuracy": 0.9997314453125,
+      "repair_rate": 0.9996009432251043,
+      "break_rate": 0.0,
+      "gain": {
+        "delta": 0.672705078125,
+        "root_ci": [
+          0.6600579833984375,
+          0.6856689453125
+        ],
+        "crossed_ci": [
+          0.6600335693359375,
+          0.685572509765625
+        ],
+        "per_seed_delta": [
+          0.6728515625,
+          0.6729736328125,
+          0.6727294921875,
+          0.6719970703125,
+          0.6729736328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "spatial_gate",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        12884,
+        26673,
+        52,
+        1351
+      ],
+      "previous_accuracy": 0.3158203125,
+      "post_accuracy": 0.9657470703125,
+      "repair_rate": 0.9517913217242364,
+      "break_rate": 0.004019789734075448,
+      "gain": {
+        "delta": 0.6499267578125,
+        "root_ci": [
+          0.636767578125,
+          0.66337890625
+        ],
+        "crossed_ci": [
+          0.606591796875,
+          0.6800048828125
+        ],
+        "per_seed_delta": [
+          0.6728515625,
+          0.6624755859375,
+          0.6727294921875,
+          0.6719970703125,
+          0.569580078125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "answer_only",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13290,
+        27394,
+        17,
+        259
+      ],
+      "previous_accuracy": 0.3248779296875,
+      "post_accuracy": 0.99326171875,
+      "repair_rate": 0.9906339276027918,
+      "break_rate": 0.0012775231081385736,
+      "gain": {
+        "delta": 0.6683837890625,
+        "root_ci": [
+          0.655517578125,
+          0.6816162109375
+        ],
+        "crossed_ci": [
+          0.6554931640625,
+          0.681689453125
+        ],
+        "per_seed_delta": [
+          0.67041015625,
+          0.6685791015625,
+          0.66748046875,
+          0.6676025390625,
+          0.6678466796875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "answer_only",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13389,
+        27555,
+        1,
+        15
+      ],
+      "previous_accuracy": 0.326904296875,
+      "post_accuracy": 0.999609375,
+      "repair_rate": 0.999455930359086,
+      "break_rate": 7.468259895444362e-05,
+      "gain": {
+        "delta": 0.672705078125,
+        "root_ci": [
+          0.660009765625,
+          0.68564453125
+        ],
+        "crossed_ci": [
+          0.660009765625,
+          0.6856201171875
+        ],
+        "per_seed_delta": [
+          0.6728515625,
+          0.6729736328125,
+          0.6729736328125,
+          0.672119140625,
+          0.672607421875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "answer_only",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13394,
+        27557,
+        0,
+        9
+      ],
+      "previous_accuracy": 0.327001953125,
+      "post_accuracy": 0.9997802734375,
+      "repair_rate": 0.9996735108466952,
+      "break_rate": 0.0,
+      "gain": {
+        "delta": 0.6727783203125,
+        "root_ci": [
+          0.660107421875,
+          0.6857177734375
+        ],
+        "crossed_ci": [
+          0.6601068115234375,
+          0.6857183837890625
+        ],
+        "per_seed_delta": [
+          0.6728515625,
+          0.6729736328125,
+          0.6729736328125,
+          0.67236328125,
+          0.6727294921875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "answer_only",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13394,
+        27557,
+        0,
+        9
+      ],
+      "previous_accuracy": 0.327001953125,
+      "post_accuracy": 0.9997802734375,
+      "repair_rate": 0.9996735108466952,
+      "break_rate": 0.0,
+      "gain": {
+        "delta": 0.6727783203125,
+        "root_ci": [
+          0.660107421875,
+          0.6857177734375
+        ],
+        "crossed_ci": [
+          0.6601068115234375,
+          0.6857183837890625
+        ],
+        "per_seed_delta": [
+          0.6728515625,
+          0.6729736328125,
+          0.6729736328125,
+          0.67236328125,
+          0.6727294921875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "policy": "answer_only",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        12953,
+        26606,
+        0,
+        1401
+      ],
+      "previous_accuracy": 0.3162353515625,
+      "post_accuracy": 0.9657958984375,
+      "repair_rate": 0.9499767915164066,
+      "break_rate": 0.0,
+      "gain": {
+        "delta": 0.649560546875,
+        "root_ci": [
+          0.6365722656250001,
+          0.662548828125
+        ],
+        "crossed_ci": [
+          0.6010479736328125,
+          0.6824462890625
+        ],
+        "per_seed_delta": [
+          0.6728515625,
+          0.6729736328125,
+          0.6729736328125,
+          0.67236328125,
+          0.556640625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "restart",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        331,
+        678,
+        107,
+        39844
+      ],
+      "previous_accuracy": 0.010693359375,
+      "post_accuracy": 0.0246337890625,
+      "repair_rate": 0.01673165194215488,
+      "break_rate": 0.24429223744292236,
+      "gain": {
+        "delta": 0.0139404296875,
+        "root_ci": [
+          0.010644531249999999,
+          0.0178466796875
+        ],
+        "crossed_ci": [
+          0.0072265625,
+          0.0205078125
+        ],
+        "per_seed_delta": [
+          0.01611328125,
+          0.02001953125,
+          0.002197265625,
+          0.0164794921875,
+          0.014892578125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "restart",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        3739,
+        5858,
+        507,
+        30856
+      ],
+      "previous_accuracy": 0.103662109375,
+      "post_accuracy": 0.2343017578125,
+      "repair_rate": 0.15955766192733017,
+      "break_rate": 0.11940650023551579,
+      "gain": {
+        "delta": 0.1306396484375,
+        "root_ci": [
+          0.1187255859375,
+          0.143017578125
+        ],
+        "crossed_ci": [
+          0.1116937255859375,
+          0.1498309326171875
+        ],
+        "per_seed_delta": [
+          0.122314453125,
+          0.1502685546875,
+          0.107421875,
+          0.125244140625,
+          0.14794921875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "restart",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        9051,
+        13108,
+        604,
+        18197
+      ],
+      "previous_accuracy": 0.2357177734375,
+      "post_accuracy": 0.5409912109375,
+      "repair_rate": 0.4187190544641431,
+      "break_rate": 0.06255825996892801,
+      "gain": {
+        "delta": 0.3052734375,
+        "root_ci": [
+          0.2896484375,
+          0.32124084472656256
+        ],
+        "crossed_ci": [
+          0.2724359130859375,
+          0.3362554931640625
+        ],
+        "per_seed_delta": [
+          0.3316650390625,
+          0.3221435546875,
+          0.2723388671875,
+          0.2625732421875,
+          0.337646484375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "restart",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        10136,
+        14372,
+        562,
+        15890
+      ],
+      "previous_accuracy": 0.261181640625,
+      "post_accuracy": 0.59833984375,
+      "repair_rate": 0.47491904038067545,
+      "break_rate": 0.05253318377266779,
+      "gain": {
+        "delta": 0.337158203125,
+        "root_ci": [
+          0.3222894287109375,
+          0.35224670410156256
+        ],
+        "crossed_ci": [
+          0.288328857421875,
+          0.3915533447265625
+        ],
+        "per_seed_delta": [
+          0.4326171875,
+          0.3380126953125,
+          0.2908935546875,
+          0.2698974609375,
+          0.3543701171875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "restart",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        10160,
+        14395,
+        559,
+        15846
+      ],
+      "previous_accuracy": 0.2616943359375,
+      "post_accuracy": 0.5994873046875,
+      "repair_rate": 0.4760093912238352,
+      "break_rate": 0.05215038716298162,
+      "gain": {
+        "delta": 0.33779296875,
+        "root_ci": [
+          0.3229486083984375,
+          0.3528326416015625
+        ],
+        "crossed_ci": [
+          0.288328857421875,
+          0.3929461669921875
+        ],
+        "per_seed_delta": [
+          0.435791015625,
+          0.3380126953125,
+          0.2908935546875,
+          0.2698974609375,
+          0.3543701171875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "carry",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        2541,
+        3751,
+        349,
+        34319
+      ],
+      "previous_accuracy": 0.070556640625,
+      "post_accuracy": 0.15361328125,
+      "repair_rate": 0.09852902547938008,
+      "break_rate": 0.12076124567474049,
+      "gain": {
+        "delta": 0.083056640625,
+        "root_ci": [
+          0.0771728515625,
+          0.08916015625000001
+        ],
+        "crossed_ci": [
+          0.0656488037109375,
+          0.098681640625
+        ],
+        "per_seed_delta": [
+          0.093017578125,
+          0.1021728515625,
+          0.052001953125,
+          0.09130859375,
+          0.0767822265625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "carry",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        5843,
+        8950,
+        568,
+        25599
+      ],
+      "previous_accuracy": 0.1565185546875,
+      "post_accuracy": 0.3611572265625,
+      "repair_rate": 0.25905236041564156,
+      "break_rate": 0.08859772266417096,
+      "gain": {
+        "delta": 0.204638671875,
+        "root_ci": [
+          0.1946771240234375,
+          0.214990234375
+        ],
+        "crossed_ci": [
+          0.174609375,
+          0.23054260253906247
+        ],
+        "per_seed_delta": [
+          0.20361328125,
+          0.2310791015625,
+          0.1517333984375,
+          0.2332763671875,
+          0.2034912109375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "carry",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        8831,
+        13195,
+        672,
+        18262
+      ],
+      "previous_accuracy": 0.2320068359375,
+      "post_accuracy": 0.537744140625,
+      "repair_rate": 0.4194614871093874,
+      "break_rate": 0.07071451120698727,
+      "gain": {
+        "delta": 0.3057373046875,
+        "root_ci": [
+          0.29274841308593746,
+          0.3187750244140625
+        ],
+        "crossed_ci": [
+          0.2793939208984375,
+          0.3340338134765625
+        ],
+        "per_seed_delta": [
+          0.28125,
+          0.3121337890625,
+          0.2777099609375,
+          0.351806640625,
+          0.3057861328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "carry",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        10099,
+        14999,
+        733,
+        15129
+      ],
+      "previous_accuracy": 0.264453125,
+      "post_accuracy": 0.612744140625,
+      "repair_rate": 0.4978425385023898,
+      "break_rate": 0.0676698670605613,
+      "gain": {
+        "delta": 0.348291015625,
+        "root_ci": [
+          0.334326171875,
+          0.3620849609375
+        ],
+        "crossed_ci": [
+          0.31005859375,
+          0.38757446289062497
+        ],
+        "per_seed_delta": [
+          0.306884765625,
+          0.302001953125,
+          0.3662109375,
+          0.4144287109375,
+          0.3519287109375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "carry",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        10475,
+        15110,
+        602,
+        14773
+      ],
+      "previous_accuracy": 0.2704345703125,
+      "post_accuracy": 0.6246337890625,
+      "repair_rate": 0.5056386574306462,
+      "break_rate": 0.05434684481357768,
+      "gain": {
+        "delta": 0.35419921875,
+        "root_ci": [
+          0.34077148437500004,
+          0.36757934570312495
+        ],
+        "crossed_ci": [
+          0.30290283203125,
+          0.4059088134765625
+        ],
+        "per_seed_delta": [
+          0.2974853515625,
+          0.2862548828125,
+          0.4053955078125,
+          0.430908203125,
+          0.3509521484375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "spatial_gate",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        1523,
+        2693,
+        321,
+        36423
+      ],
+      "previous_accuracy": 0.04501953125,
+      "post_accuracy": 0.1029296875,
+      "repair_rate": 0.06884650782288577,
+      "break_rate": 0.17407809110629066,
+      "gain": {
+        "delta": 0.05791015625,
+        "root_ci": [
+          0.05009765625,
+          0.06640625
+        ],
+        "crossed_ci": [
+          0.0395989990234375,
+          0.0764404296875
+        ],
+        "per_seed_delta": [
+          0.0823974609375,
+          0.0657958984375,
+          0.030029296875,
+          0.0675048828125,
+          0.0438232421875
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "spatial_gate",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        8337,
+        12072,
+        437,
+        20114
+      ],
+      "previous_accuracy": 0.214208984375,
+      "post_accuracy": 0.4982666015625,
+      "repair_rate": 0.37506990617038466,
+      "break_rate": 0.04980624572600866,
+      "gain": {
+        "delta": 0.2840576171875,
+        "root_ci": [
+          0.2687738037109375,
+          0.29978088378906254
+        ],
+        "crossed_ci": [
+          0.2640625,
+          0.3041259765625
+        ],
+        "per_seed_delta": [
+          0.3060302734375,
+          0.2696533203125,
+          0.271240234375,
+          0.294921875,
+          0.2784423828125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "spatial_gate",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13662,
+        18425,
+        155,
+        8718
+      ],
+      "previous_accuracy": 0.3373291015625,
+      "post_accuracy": 0.7833740234375,
+      "repair_rate": 0.6788122167778065,
+      "break_rate": 0.011218064702902222,
+      "gain": {
+        "delta": 0.446044921875,
+        "root_ci": [
+          0.43278808593749996,
+          0.4595703125
+        ],
+        "crossed_ci": [
+          0.4162347412109375,
+          0.47378051757812495
+        ],
+        "per_seed_delta": [
+          0.4698486328125,
+          0.399169921875,
+          0.47900390625,
+          0.427978515625,
+          0.4542236328125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "spatial_gate",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        14317,
+        19175,
+        105,
+        7363
+      ],
+      "previous_accuracy": 0.352099609375,
+      "post_accuracy": 0.81767578125,
+      "repair_rate": 0.7225487979501093,
+      "break_rate": 0.007280543613923173,
+      "gain": {
+        "delta": 0.465576171875,
+        "root_ci": [
+          0.45280761718750007,
+          0.47856445312499996
+        ],
+        "crossed_ci": [
+          0.4321044921875,
+          0.4971923828125
+        ],
+        "per_seed_delta": [
+          0.501220703125,
+          0.4146728515625,
+          0.495361328125,
+          0.434814453125,
+          0.4818115234375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "spatial_gate",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13630,
+        18265,
+        114,
+        8951
+      ],
+      "previous_accuracy": 0.335546875,
+      "post_accuracy": 0.7786865234375,
+      "repair_rate": 0.6711125808348031,
+      "break_rate": 0.00829452852153667,
+      "gain": {
+        "delta": 0.4431396484375,
+        "root_ci": [
+          0.42978515625,
+          0.4566900634765625
+        ],
+        "crossed_ci": [
+          0.396995849609375,
+          0.48857421875
+        ],
+        "per_seed_delta": [
+          0.502197265625,
+          0.41357421875,
+          0.495361328125,
+          0.434814453125,
+          0.3697509765625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "answer_only",
+      "K": 1,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        2053,
+        3554,
+        391,
+        34962
+      ],
+      "previous_accuracy": 0.05966796875,
+      "post_accuracy": 0.1368896484375,
+      "repair_rate": 0.09227334094921591,
+      "break_rate": 0.1599836333878887,
+      "gain": {
+        "delta": 0.0772216796875,
+        "root_ci": [
+          0.0683831787109375,
+          0.08637695312499999
+        ],
+        "crossed_ci": [
+          0.05869140625,
+          0.0962890625
+        ],
+        "per_seed_delta": [
+          0.095947265625,
+          0.0501708984375,
+          0.068115234375,
+          0.101806640625,
+          0.070068359375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "answer_only",
+      "K": 2,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        7478,
+        11120,
+        467,
+        21895
+      ],
+      "previous_accuracy": 0.1939697265625,
+      "post_accuracy": 0.454052734375,
+      "repair_rate": 0.3368165985158261,
+      "break_rate": 0.05877910635619887,
+      "gain": {
+        "delta": 0.2600830078125,
+        "root_ci": [
+          0.24558105468750002,
+          0.27460937500000004
+        ],
+        "crossed_ci": [
+          0.2282452392578125,
+          0.291259765625
+        ],
+        "per_seed_delta": [
+          0.269775390625,
+          0.2318115234375,
+          0.2957763671875,
+          0.213623046875,
+          0.2894287109375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "answer_only",
+      "K": 4,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        12814,
+        17677,
+        274,
+        10195
+      ],
+      "previous_accuracy": 0.31953125,
+      "post_accuracy": 0.7444091796875,
+      "repair_rate": 0.6342207233065442,
+      "break_rate": 0.02093520782396088,
+      "gain": {
+        "delta": 0.4248779296875,
+        "root_ci": [
+          0.411376953125,
+          0.4386962890625
+        ],
+        "crossed_ci": [
+          0.38974426269531254,
+          0.45783813476562496
+        ],
+        "per_seed_delta": [
+          0.433349609375,
+          0.4095458984375,
+          0.47314453125,
+          0.3656005859375,
+          0.4427490234375
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "answer_only",
+      "K": 8,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13692,
+        18629,
+        200,
+        8439
+      ],
+      "previous_accuracy": 0.33916015625,
+      "post_accuracy": 0.7890869140625,
+      "repair_rate": 0.6882296438599084,
+      "break_rate": 0.014396775122372588,
+      "gain": {
+        "delta": 0.4499267578125,
+        "root_ci": [
+          0.4370843505859374,
+          0.46333068847656256
+        ],
+        "crossed_ci": [
+          0.41506286621093746,
+          0.4822027587890625
+        ],
+        "per_seed_delta": [
+          0.484375,
+          0.4290771484375,
+          0.4876708984375,
+          0.391845703125,
+          0.4566650390625
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "policy": "answer_only",
+      "K": 16,
+      "seeds": [
+        29,
+        43,
+        71,
+        101,
+        137
+      ],
+      "roots": 256,
+      "transitions": 40960,
+      "counts": [
+        13716,
+        18646,
+        198,
+        8400
+      ],
+      "previous_accuracy": 0.339697265625,
+      "post_accuracy": 0.790087890625,
+      "repair_rate": 0.6894180285439622,
+      "break_rate": 0.014230271668822769,
+      "gain": {
+        "delta": 0.450390625,
+        "root_ci": [
+          0.437548828125,
+          0.46372131347656254
+        ],
+        "crossed_ci": [
+          0.415306396484375,
+          0.4828857421875
+        ],
+        "per_seed_delta": [
+          0.4857177734375,
+          0.4290771484375,
+          0.4876708984375,
+          0.3919677734375,
+          0.45751953125
+        ],
+        "bootstrap_seed": 64037,
+        "draws": 10000
+      }
+    }
+  ],
+  "frequencies": [
+    {
+      "suite": "maze12-on-maze12",
+      "ordinary": {
+        "low": 7792,
+        "high": 105,
+        "middle": 295
+      },
+      "transitions": 8192,
+      "roots": 256,
+      "challenge": {
+        "low": 64,
+        "high": 64
+      },
+      "challenge_branches": 128
+    },
+    {
+      "suite": "circuit32-on-circuit32",
+      "ordinary": {
+        "low": 5310,
+        "middle": 2612,
+        "high": 270
+      },
+      "transitions": 8192,
+      "roots": 256,
+      "challenge": {},
+      "challenge_branches": 0
+    },
+    {
+      "suite": "circuit32-on-circuit48",
+      "ordinary": {
+        "low": 5363,
+        "middle": 2020,
+        "high": 809
+      },
+      "transitions": 8192,
+      "roots": 256,
+      "challenge": {},
+      "challenge_branches": 0
+    },
+    {
+      "suite": "maze16-on-maze16",
+      "ordinary": {
+        "low": 7993,
+        "middle": 145,
+        "high": 54
+      },
+      "transitions": 8192,
+      "roots": 256,
+      "challenge": {
+        "low": 57,
+        "high": 57
+      },
+      "challenge_branches": 114
+    },
+    {
+      "suite": "circuit64-on-circuit64",
+      "ordinary": {
+        "low": 6440,
+        "middle": 1737,
+        "high": 15
+      },
+      "transitions": 8192,
+      "roots": 256,
+      "challenge": {},
+      "challenge_branches": 0
+    },
+    {
+      "suite": "circuit64-on-circuit96",
+      "ordinary": {
+        "low": 6028,
+        "middle": 1911,
+        "high": 253
+      },
+      "transitions": 8192,
+      "roots": 256,
+      "challenge": {},
+      "challenge_branches": 0
+    }
+  ],
+  "episode_rows": 96000,
+  "audit_samples": 1125,
+  "elapsed_seconds": 228.75563929998316,
+  "gpu_seconds": 0,
+  "outputs": {
+    "previous_prediction_audit.json.gz": "33140604a893a4bac4b7c102893b690ea22c966068fd240c2f192c082cb5598e",
+    "previous_prediction_episodes.json.gz": "e3c97ff1258b81536b39f15a730eefc2180bfea0165dba5fc0e9cdd368a5f605"
+  }
+}

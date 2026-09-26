@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this repository if you use its code or experimental data."
+title: "State reuse in small recursive solvers"
+type: software
+authors:
+  - family-names: Spiers
+    given-names: Cleo
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/CleoSp/state-reuse-study"
+url: "https://github.com/CleoSp/state-reuse-study"

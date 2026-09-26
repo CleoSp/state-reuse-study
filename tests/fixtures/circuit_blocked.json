@@ -1,0 +1,144 @@
+[
+  {
+    "schema_version": 2,
+    "root_id": "fixture-blocked",
+    "frame_index": 0,
+    "split": "train",
+    "synthetic": true,
+    "status": "developmental",
+    "suite": "ordinary",
+    "domain": "circuit",
+    "observation": {
+      "operators": [
+        0,
+        0,
+        1,
+        4
+      ],
+      "parents": [
+        [],
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "input_bits": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "node_order": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "target": {
+      "values": [
+        -1,
+        -1,
+        0,
+        1
+      ],
+      "scored_mask": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    "oracle_metadata": {
+      "descendant_mask": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "changed_value_mask": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "family_hash": "23ea7a60a8babea4296f1d68c683607a19c9581c058d4552798603ded87d2776",
+    "observation_hash": "e9ff3d0da5758dca0329933361b071dd24cbc7557c1af8a36bb067f93c9852f5"
+  },
+  {
+    "schema_version": 2,
+    "root_id": "fixture-blocked",
+    "frame_index": 1,
+    "split": "train",
+    "synthetic": true,
+    "status": "developmental",
+    "suite": "ordinary",
+    "domain": "circuit",
+    "observation": {
+      "operators": [
+        0,
+        0,
+        1,
+        4
+      ],
+      "parents": [
+        [],
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "input_bits": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "node_order": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "target": {
+      "values": [
+        -1,
+        -1,
+        0,
+        1
+      ],
+      "scored_mask": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    "oracle_metadata": {
+      "descendant_mask": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "changed_value_mask": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "family_hash": "23ea7a60a8babea4296f1d68c683607a19c9581c058d4552798603ded87d2776",
+    "observation_hash": "2ec786524e86a4122b27c3bb644aaf634daf9dd7dd4330d31435f721897311c7"
+  }
+]

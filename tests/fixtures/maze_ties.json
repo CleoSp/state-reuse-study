@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "purpose": "hand-built correctness fixture; excluded from empirical result tables",
+  "observation": {"height": 2, "width": 2, "edges": [[0,1],[0,2],[1,3],[2,3]], "start": 0, "goal": 3},
+  "target": {"valid_actions": [[false,true,true,false,false,false],[false,false,true,false,false,false],[false,true,false,false,false,false],[false,false,false,false,true,false]]},
+  "oracle_metadata": {"distances": [2,1,1,0]}
+}

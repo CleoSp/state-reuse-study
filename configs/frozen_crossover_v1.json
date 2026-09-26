@@ -1,0 +1,23 @@
+{
+  "protocol_version": "frozen-crossover-v1",
+  "source_run": "runs/static_generalization_v1",
+  "checkpoint_arm": "masked_neighbor",
+  "checkpoint_sha256": "8568b163d4a23ec8f5f72505a18c097cd86c7eb985ca2bfd5241e23e9e75c86b",
+  "dataset_sha256": "eab488472d04d20b9cd2721d726131a7850dbda90c45fa24bafd68cd864d79cf",
+  "source_K": 8,
+  "budgets": [1, 2, 4, 8],
+  "policies": ["restart", "carry"],
+  "ordinary_edit_seed": 501,
+  "challenge_seed": 502,
+  "challenge_pairs_per_type": 64,
+  "low_max": 0.1,
+  "high_min": 0.4,
+  "bootstrap_seed": 503,
+  "bootstrap_repetitions": 10000,
+  "confidence": 0.95,
+  "primary_metric": "route_correct",
+  "minimum_stratum_roots": 2,
+  "threads": 2,
+  "job_seconds": 1200,
+  "synthetic": false
+}

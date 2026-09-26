@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+runs/
+build/
+dist/
+.env
+.env.*
+*.pem
+*.key
+*.zip
+EVIDENCE_MANIFEST.json
+reports/pilot_results.json
+reports/stream_results.json
+data-download/

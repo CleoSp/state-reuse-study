@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="64" y="24" font-size="15" font-weight="bold" fill="#1B365D">maze16-on-maze16: post-edit exact accuracy by fixed budget K</text>
+<text x="64" y="42" font-size="10" fill="#333">32-edit streams, each K carrying its own state; five seeds averaged; 256 test roots.</text>
+<rect x="64" y="58" width="496" height="316" fill="none" stroke="#999"/>
+<line x1="64" y1="374.0" x2="560" y2="374.0" stroke="#eee"/>
+<text x="58" y="377.5" font-size="9" text-anchor="end">0</text>
+<line x1="64" y1="310.8" x2="560" y2="310.8" stroke="#eee"/>
+<text x="58" y="314.3" font-size="9" text-anchor="end">0.2</text>
+<line x1="64" y1="247.6" x2="560" y2="247.6" stroke="#eee"/>
+<text x="58" y="251.1" font-size="9" text-anchor="end">0.4</text>
+<line x1="64" y1="184.4" x2="560" y2="184.4" stroke="#eee"/>
+<text x="58" y="187.9" font-size="9" text-anchor="end">0.6</text>
+<line x1="64" y1="121.2" x2="560" y2="121.2" stroke="#eee"/>
+<text x="58" y="124.7" font-size="9" text-anchor="end">0.8</text>
+<line x1="64" y1="58.0" x2="560" y2="58.0" stroke="#eee"/>
+<text x="58" y="61.5" font-size="9" text-anchor="end">1</text>
+<line x1="64.0" y1="374" x2="64.0" y2="378" stroke="#999"/>
+<text x="64.0" y="389" font-size="9" text-anchor="middle">1</text>
+<line x1="188.0" y1="374" x2="188.0" y2="378" stroke="#999"/>
+<text x="188.0" y="389" font-size="9" text-anchor="middle">2</text>
+<line x1="312.0" y1="374" x2="312.0" y2="378" stroke="#999"/>
+<text x="312.0" y="389" font-size="9" text-anchor="middle">4</text>
+<line x1="436.0" y1="374" x2="436.0" y2="378" stroke="#999"/>
+<text x="436.0" y="389" font-size="9" text-anchor="middle">8</text>
+<line x1="560.0" y1="374" x2="560.0" y2="378" stroke="#999"/>
+<text x="560.0" y="389" font-size="9" text-anchor="middle">16</text>
+<text x="312.0" y="416" font-size="10" text-anchor="middle">Outer cycles K (log scale)</text>
+<text x="16" y="216.0" font-size="10" text-anchor="middle" transform="rotate(-90 16 216.0)">Mean post-edit exact accuracy</text>
+<path d="M64.0,290.7 L188.0,187.3 L312.0,84.1 L436.0,61.1 L560.0,59.1" fill="none" stroke="#1B365D" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="290.7" r="2.6" fill="#1B365D"/>
+<circle cx="188.0" cy="187.3" r="2.6" fill="#1B365D"/>
+<circle cx="312.0" cy="84.1" r="2.6" fill="#1B365D"/>
+<circle cx="436.0" cy="61.1" r="2.6" fill="#1B365D"/>
+<circle cx="560.0" cy="59.1" r="2.6" fill="#1B365D"/>
+<line x1="574" y1="70" x2="594" y2="70" stroke="#1B365D" stroke-width="2"/>
+<text x="600" y="73.5" font-size="9">restart</text>
+<path d="M64.0,108.7 L188.0,87.2 L312.0,75.0 L436.0,69.3 L560.0,69.0" fill="none" stroke="#C25431" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="108.7" r="2.6" fill="#C25431"/>
+<circle cx="188.0" cy="87.2" r="2.6" fill="#C25431"/>
+<circle cx="312.0" cy="75.0" r="2.6" fill="#C25431"/>
+<circle cx="436.0" cy="69.3" r="2.6" fill="#C25431"/>
+<circle cx="560.0" cy="69.0" r="2.6" fill="#C25431"/>
+<line x1="574" y1="86" x2="594" y2="86" stroke="#C25431" stroke-width="2"/>
+<text x="600" y="89.5" font-size="9">carry</text>
+<path d="M64.0,141.8 L188.0,102.4 L312.0,76.3 L436.0,67.4 L560.0,108.0" fill="none" stroke="#00806C" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="141.8" r="2.6" fill="#00806C"/>
+<circle cx="188.0" cy="102.4" r="2.6" fill="#00806C"/>
+<circle cx="312.0" cy="76.3" r="2.6" fill="#00806C"/>
+<circle cx="436.0" cy="67.4" r="2.6" fill="#00806C"/>
+<circle cx="560.0" cy="108.0" r="2.6" fill="#00806C"/>
+<line x1="574" y1="102" x2="594" y2="102" stroke="#00806C" stroke-width="2"/>
+<text x="600" y="105.5" font-size="9">spatial_gate</text>
+<path d="M64.0,117.6 L188.0,92.6 L312.0,80.4 L436.0,74.2 L560.0,72.3" fill="none" stroke="#8264A8" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="117.6" r="2.6" fill="#8264A8"/>
+<circle cx="188.0" cy="92.6" r="2.6" fill="#8264A8"/>
+<circle cx="312.0" cy="80.4" r="2.6" fill="#8264A8"/>
+<circle cx="436.0" cy="74.2" r="2.6" fill="#8264A8"/>
+<circle cx="560.0" cy="72.3" r="2.6" fill="#8264A8"/>
+<line x1="574" y1="118" x2="594" y2="118" stroke="#8264A8" stroke-width="2"/>
+<text x="600" y="121.5" font-size="9">global_gate</text>
+<path d="M64.0,146.6 L188.0,95.4 L312.0,69.8 L436.0,62.9 L560.0,78.4" fill="none" stroke="#B8860B" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="146.6" r="2.6" fill="#B8860B"/>
+<circle cx="188.0" cy="95.4" r="2.6" fill="#B8860B"/>
+<circle cx="312.0" cy="69.8" r="2.6" fill="#B8860B"/>
+<circle cx="436.0" cy="62.9" r="2.6" fill="#B8860B"/>
+<circle cx="560.0" cy="78.4" r="2.6" fill="#B8860B"/>
+<line x1="574" y1="134" x2="594" y2="134" stroke="#B8860B" stroke-width="2"/>
+<text x="600" y="137.5" font-size="9">gru_adapter</text>
+<path d="M64.0,197.6 L188.0,119.7 L312.0,97.1 L436.0,87.7 L560.0,96.7" fill="none" stroke="#7A7A7A" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="197.6" r="2.6" fill="#7A7A7A"/>
+<circle cx="188.0" cy="119.7" r="2.6" fill="#7A7A7A"/>
+<circle cx="312.0" cy="97.1" r="2.6" fill="#7A7A7A"/>
+<circle cx="436.0" cy="87.7" r="2.6" fill="#7A7A7A"/>
+<circle cx="560.0" cy="96.7" r="2.6" fill="#7A7A7A"/>
+<line x1="574" y1="150" x2="594" y2="150" stroke="#7A7A7A" stroke-width="2"/>
+<text x="600" y="153.5" font-size="9">residual_adapter</text>
+<path d="M64.0,174.7 L188.0,110.0 L312.0,69.8 L436.0,61.0 L560.0,59.6" fill="none" stroke="#D81B60" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="64.0" cy="174.7" r="2.6" fill="#D81B60"/>
+<circle cx="188.0" cy="110.0" r="2.6" fill="#D81B60"/>
+<circle cx="312.0" cy="69.8" r="2.6" fill="#D81B60"/>
+<circle cx="436.0" cy="61.0" r="2.6" fill="#D81B60"/>
+<circle cx="560.0" cy="59.6" r="2.6" fill="#D81B60"/>
+<line x1="574" y1="166" x2="594" y2="166" stroke="#D81B60" stroke-width="2"/>
+<text x="600" y="169.5" font-size="9">answer_only</text>
+</svg>

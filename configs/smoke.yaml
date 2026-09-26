@@ -1,0 +1,25 @@
+schema_version: 1
+seed: 17
+device: cpu
+output_dir: runs/smoke
+dataset:
+  height: 8
+  width: 8
+  roots: 64
+  edits_per_episode: 4
+  extra_edge_probability: 0.15
+  train_fraction: 0.5
+  val_fraction: 0.25
+model:
+  width: 64
+  heads: 2
+  inner_cycles: 1
+  outer_cycles: 2
+training:
+  steps: 200
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 0.01
+  threads: 2
+  memory_limit_mb: 4096
+  eval_budgets: [0, 1, 2, 4]

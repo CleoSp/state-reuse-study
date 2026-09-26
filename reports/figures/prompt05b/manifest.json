@@ -1,0 +1,23 @@
+{
+  "source_sha256": "7e2273c4ed717d0dd491e29e6c47ed49b045bd0944d0e32ef67d9876ac7381b3",
+  "generator_sha256": "a6e4e8df04024df7e3659521ad2a88bd1f603cbdd263721a85038797106b25b9",
+  "reportlab_version": "4.4.9",
+  "charts": {
+    "maze-decay-K1.svg": "98f989e008992d278c68dfd5276fce4c6e29cabbcdb03252ef83299d767f3e12",
+    "maze-decay-K2.svg": "733604216de382c80ee095c935ef0325e3a761062102103f1ff14c535922c23d",
+    "maze-decay-K4.svg": "7ca48a604acf38127a984b63fcea448c0cdabb5e877d52a6ff9cbb61e12cbf19",
+    "maze-decay-K8.svg": "df371fb7c1442fe387b2e11815594fc4dcf40eaa347da7ae77dd44c5f97f33f0",
+    "maze-retention-all.svg": "8d5ad2afed3c9db8c36fa132cefd3be9bf5beb9beeb382677d61781550983c0a",
+    "maze-retention-edited.svg": "c5efd5ffca2046bfa531c4139ce74068d3f799c16e236cb832b989ca1a2e3732",
+    "maze-retention-distant.svg": "227149e0f4f03c5eebac02bdc19d03ebb4ae401c711662e6d178ae5bb089894f",
+    "circuit-decay-K1.svg": "31d701f5db6783cf865f0281a8145d8d8525833fd267b203e9a85889874d8c6e",
+    "circuit-decay-K2.svg": "f2038cd88ff6dc76c3005b2965d731f3b0e50c3862a3769fb989488c005de2cd",
+    "circuit-retention-all.svg": "17e511710ea259997726fac3240bbe1b9739083657338b7729856bcad174c01f",
+    "circuit-retention-edited.svg": "4e3fa592ab0990f0f9a81c2b7f850d4899fe4a69223753942225f98be51ebef5",
+    "circuit-retention-distant.svg": "1ac46c1eafb44c732e680ad98e23fb9a45f523a1276367618f7ed222db36a7ab",
+    "circuit-depth-decay-K1.svg": "4145c5a33bb63124674548fb18c232d906a2ea36b9c89afa1c9260b8a80629d7",
+    "circuit-depth-decay-K2.svg": "91a2f8bb66f9116b32e06be0a9d4a6a369cec946f9df91c91d1d5b8d624041d8",
+    "circuit-depth-decay-K4.svg": "0c0738db45f16a337ed26e29a7342cc66a52e164513dc863dfcaf12d85b13b7c",
+    "circuit-depth-decay-K8.svg": "778b880ef5b13a111f3228bb1620c7b9debcac4d527c9a94eb6ab3fcb777021f"
+  }
+}

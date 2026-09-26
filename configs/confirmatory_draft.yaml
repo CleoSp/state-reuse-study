@@ -1,0 +1,19 @@
+# NOT A FROZEN PROTOCOL. No confirmatory execution is authorized.
+schema_version: 1
+workflow: confirmatory
+seed: 17
+device: cpu
+output_dir: runs/confirmatory_draft
+dataset:
+  height: 12
+  width: 12
+  roots: 1000
+model:
+  width: 128
+  heads: 4
+  inner_cycles: 2
+  outer_cycles: 4
+training:
+  steps: 1000
+  batch_size: 8
+  threads: 2

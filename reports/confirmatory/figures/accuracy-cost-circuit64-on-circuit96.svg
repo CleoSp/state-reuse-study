@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="64" y="24" font-size="15" font-weight="bold" fill="#1B365D">circuit64-on-circuit96: post-edit exact accuracy versus amortized cost</text>
+<text x="64" y="42" font-size="10" fill="#333">Batch-64 timing from the accuracy jobs; initial solve included; K in 1,2,4,8,16 left to right; five seeds, 256 test roots.</text>
+<rect x="64" y="58" width="496" height="316" fill="none" stroke="#999"/>
+<line x1="64" y1="374.0" x2="560" y2="374.0" stroke="#eee"/>
+<text x="58" y="377.5" font-size="9" text-anchor="end">0</text>
+<line x1="64" y1="310.8" x2="560" y2="310.8" stroke="#eee"/>
+<text x="58" y="314.3" font-size="9" text-anchor="end">0.2</text>
+<line x1="64" y1="247.6" x2="560" y2="247.6" stroke="#eee"/>
+<text x="58" y="251.1" font-size="9" text-anchor="end">0.4</text>
+<line x1="64" y1="184.4" x2="560" y2="184.4" stroke="#eee"/>
+<text x="58" y="187.9" font-size="9" text-anchor="end">0.6</text>
+<line x1="64" y1="121.2" x2="560" y2="121.2" stroke="#eee"/>
+<text x="58" y="124.7" font-size="9" text-anchor="end">0.8</text>
+<line x1="64" y1="58.0" x2="560" y2="58.0" stroke="#eee"/>
+<text x="58" y="61.5" font-size="9" text-anchor="end">1</text>
+<line x1="214.3" y1="374" x2="214.3" y2="378" stroke="#999"/>
+<text x="214.3" y="389" font-size="9" text-anchor="middle">2</text>
+<line x1="367.1" y1="374" x2="367.1" y2="378" stroke="#999"/>
+<text x="367.1" y="389" font-size="9" text-anchor="middle">4</text>
+<line x1="520.0" y1="374" x2="520.0" y2="378" stroke="#999"/>
+<text x="520.0" y="389" font-size="9" text-anchor="middle">6</text>
+<text x="312.0" y="416" font-size="10" text-anchor="middle">Amortized milliseconds per frame (batch 64)</text>
+<text x="16" y="216.0" font-size="10" text-anchor="middle" transform="rotate(-90 16 216.0)">Mean post-edit exact accuracy</text>
+<path d="M399.5,373.8 L405.4,357.5 L427.7,267.6 L467.5,229.6 L554.1,228.2" fill="none" stroke="#1B365D" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="399.5" cy="373.8" r="2.6" fill="#1B365D"/>
+<circle cx="405.4" cy="357.5" r="2.6" fill="#1B365D"/>
+<circle cx="427.7" cy="267.6" r="2.6" fill="#1B365D"/>
+<circle cx="467.5" cy="229.6" r="2.6" fill="#1B365D"/>
+<circle cx="554.1" cy="228.2" r="2.6" fill="#1B365D"/>
+<line x1="574" y1="70" x2="594" y2="70" stroke="#1B365D" stroke-width="2"/>
+<text x="600" y="73.5" font-size="9">restart</text>
+<path d="M397.7,339.9 L408.6,289.8 L431.2,247.9 L472.2,230.0 L560.0,231.5" fill="none" stroke="#C25431" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="397.7" cy="339.9" r="2.6" fill="#C25431"/>
+<circle cx="408.6" cy="289.8" r="2.6" fill="#C25431"/>
+<circle cx="431.2" cy="247.9" r="2.6" fill="#C25431"/>
+<circle cx="472.2" cy="230.0" r="2.6" fill="#C25431"/>
+<circle cx="560.0" cy="231.5" r="2.6" fill="#C25431"/>
+<line x1="574" y1="86" x2="594" y2="86" stroke="#C25431" stroke-width="2"/>
+<text x="600" y="89.5" font-size="9">carry</text>
+<path d="M403.8,371.1 L410.9,311.5 L432.0,172.7 L472.5,125.7 L559.2,124.5" fill="none" stroke="#00806C" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="403.8" cy="371.1" r="2.6" fill="#00806C"/>
+<circle cx="410.9" cy="311.5" r="2.6" fill="#00806C"/>
+<circle cx="432.0" cy="172.7" r="2.6" fill="#00806C"/>
+<circle cx="472.5" cy="125.7" r="2.6" fill="#00806C"/>
+<circle cx="559.2" cy="124.5" r="2.6" fill="#00806C"/>
+<line x1="574" y1="102" x2="594" y2="102" stroke="#00806C" stroke-width="2"/>
+<text x="600" y="105.5" font-size="9">spatial_gate</text>
+<path d="M395.8,368.2 L406.2,302.2 L428.2,177.1 L469.9,130.5 L553.5,128.8" fill="none" stroke="#D81B60" stroke-width="1.8" stroke-dasharray=""/>
+<circle cx="395.8" cy="368.2" r="2.6" fill="#D81B60"/>
+<circle cx="406.2" cy="302.2" r="2.6" fill="#D81B60"/>
+<circle cx="428.2" cy="177.1" r="2.6" fill="#D81B60"/>
+<circle cx="469.9" cy="130.5" r="2.6" fill="#D81B60"/>
+<circle cx="553.5" cy="128.8" r="2.6" fill="#D81B60"/>
+<line x1="574" y1="118" x2="594" y2="118" stroke="#D81B60" stroke-width="2"/>
+<text x="600" y="121.5" font-size="9">answer_only</text>
+<circle cx="64.0" cy="58.0" r="4" fill="#000000"/>
+<line x1="574" y1="134" x2="594" y2="134" stroke="#000000" stroke-width="2"/>
+<text x="600" y="137.5" font-size="9">event_driven (CPU reference)</text>
+</svg>

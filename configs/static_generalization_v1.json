@@ -1,0 +1,21 @@
+{
+  "protocol_version": "static-generalization-v1",
+  "seed": 29,
+  "data_seed": 29017,
+  "train_roots": 512,
+  "val_roots": 128,
+  "height": 8,
+  "width": 8,
+  "batch_size": 8,
+  "model_width": 64,
+  "heads": 2,
+  "inner_cycles": 1,
+  "budgets": [1, 2, 4, 8, 16],
+  "steps": 1200,
+  "learning_rate": 0.001,
+  "final_learning_rate": 0.0003,
+  "threads": 2,
+  "training_seconds_per_arm": 440,
+  "job_seconds": 1100,
+  "minimum_validation_route_accuracy": 0.5
+}

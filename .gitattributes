@@ -1,2 +1,2 @@
 # Preserve the bytes of scientific records and their checksum bindings.
-* -text
+* -text whitespace=cr-at-eol

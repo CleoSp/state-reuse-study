@@ -4,6 +4,11 @@ Download the archives from the [v0.1.0 release](https://github.com/CleoSp/state-
 The source repository contains the small primary-table export and diagnostic
 datasets; the complete available experiment records are separate downloads.
 
+The full data consists of **16 ZIP files, 18.6 GiB compressed**, restoring
+**16,720 files (22.5 GiB)**. Each archived file was read back and checked against
+its original SHA-256 before publication. All uploaded assets also matched
+GitHub's server-side SHA-256 values.
+
 | Download | Contents |
 |---|---|
 | `experiment-data-001.zip`, `experiment-data-002.zip`, ... | All available confirmatory and pilot run records, supporting experiments, generated datasets, checkpoints, predictions, failures, resource logs, and supplementary environment/provenance records |

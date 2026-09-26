@@ -2,7 +2,7 @@
 
 Code and experimental records for **When Does Reusing Computation Help Small Recursive Solvers on Changing Problems?**
 
-[Code](https://github.com/CleoSp/state-reuse-study) · [Reproduction guide](REPRODUCING.md) · [Data downloads](DATA.md) · [Saved results](reports/confirmatory/RESULTS.md) · [MIT license](LICENSE)
+[Code](https://github.com/CleoSp/state-reuse-study) · [Reproduction guide](REPRODUCING.md) · [Download the data](https://github.com/CleoSp/state-reuse-study/releases/tag/v0.1.0) · [Saved results](reports/confirmatory/RESULTS.md) · [MIT license](LICENSE)
 
 The package compares restarting, carrying latent state, reusing previous output probabilities, and learned state adapters on editable mazes and Boolean circuits. The solver is TRM-inspired; it is not an exact TRM or RSM reproduction. Selective repair is a hypothesis evaluated by the experiments, not an assumed improvement.
 
@@ -23,6 +23,8 @@ python -m pytest -q
 ```
 
 Core installation needs only `python -m pip install -e .`. The `dev` extra provides pytest; `reports` provides ReportLab for the reporting scripts and full test suite. CPU execution is supported. GPU experiments require a compatible PyTorch installation; the recorded environments are described in [REPRODUCING.md](REPRODUCING.md).
+
+The publication copy passed 352 tests, with one checkpoint-dependent test skipped until the full data is restored. See [VALIDATION.md](VALIDATION.md) for the saved-result and archive checks performed for this release.
 
 ## Reproducing the experiments
 
@@ -48,7 +50,7 @@ The frozen experiment binds the exact original source bytes. Its configuration a
 | `scripts/` | Training, evaluation, diagnostics, and paper/table generation |
 | `reports/confirmatory/` | Saved confirmatory results, numerical summaries, figures, and provenance manifests |
 | `reports/FROZEN_PROTOCOL.md` | Original preregistered evaluation protocol |
-| `reports/PILOT_REPORT.md` | Pilot results; full pilot archives remain in the original research workspace |
+| `reports/PILOT_REPORT.md` | Pilot results; complete pilot records are in the data downloads |
 | `reports/paper/` | Manuscript, reproduction records, and diagnostic datasets |
 | `review_data/` | Derived episode aggregates for reproducing the primary table |
 | `runs/` | Local datasets, checkpoints, predictions, and resource logs; excluded from Git |

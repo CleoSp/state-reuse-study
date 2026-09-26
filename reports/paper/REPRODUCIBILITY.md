@@ -89,8 +89,9 @@ It includes 7,680 paired episode aggregates, four full diagnostic evaluation
 jobs, four report jobs, source/tests, the frozen protocol/config and numerical
 summaries. It is not the full raw-run archive. Primary-table reproduction
 matches all three stored decisions and both interval types to 1e-12.
-The complete original run archive, approximately 18 GB, will be deposited in a
-public archive at publication; until then, it is available from the authors.
+The complete available run records are distributed in the numbered ZIP files
+on the [v0.1.0 data release](https://github.com/CleoSp/state-reuse-study/releases/tag/v0.1.0).
+See [DATA.md](../../DATA.md) for integrity checks, restoration and exclusions.
 `--repack` hash-checks the existing episode export while refreshing sources;
 it does not rescan the unchanged primary raw jobs.
 

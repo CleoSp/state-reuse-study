@@ -3,7 +3,7 @@
   "repository": "https://github.com/CleoSp/state-reuse-study",
   "license": "MIT",
   "files": {
-    ".gitattributes": "1027489f73f9887ca9abba0a62bd9d219ede32a399ebdf049c716bb19dbd1c3c",
+    ".gitattributes": "28f2a7aebd4447ff762afcb28b0c0f1ed76cc61063ca9da7c6386bac9355d581",
     ".gitignore": "b69907c8410637679fc28602ea48b55ca87b1c3bf5227c485e115c7975e2235d",
     "CITATION.cff": "cdc0472afd362636989049dccf3e37eb776b7405d91acd0febeb0fc8f0bbd01f",
     "configs/adapter_pilot_v1.json": "7ed194a1dafed7aed0d193a02b45d08dff4f0aa72466f66cea7b9068a12a2dd2",
@@ -25,10 +25,11 @@
     "configs/static_circuit_v12.json": "0318c79809d1f0dc93d8361715f0f4446e67eeef5925b682db1af0eab1f6d031",
     "configs/static_generalization_v1.json": "d2041cd198c921aeccbfafed11cd4b6262c92fd752a0a165d87c24aaeb5cafcc",
     "configs/static_pilot.yaml": "017f9d899ce6db14a63a7f01d421bafbd46ac9fe5c25cf52b191b5b6c1760ef8",
-    "DATA.md": "03474929be2558a91715723f249d6b7a1e8a52d04e87b30c5585a6485564f99c",
+    "DATA.md": "f26ec7954d3b63aa1c2cac248675d16b26874472fa06241b1804d9ec9d0294d6",
+    "FULL_DATA_MANIFEST.json": "20a99bf560f2fae9e153f787ffe4c5f6a6fa1b4541892b2c93f7c7b7dd4ede6e",
     "LICENSE": "f2c99af3934f4439e58d0c1f6db0e6e7cbf729eb171acdad4a06bc9b9216f584",
     "pyproject.toml": "e19e1e5775deb349a3a7f6fba5d7dae3ffead0040ee63e80df5f6f20bf3247df",
-    "README.md": "d84cd6dcae28c961ee840b866aecc31bba56c53c42917d88cd3eb69490762c3f",
+    "README.md": "db89c857892c1b7bacf321b06b47da435e4b1b19a7be8646f416fa5a36b4faa3",
     "reports/ADVERSARIAL_AUDIT_CONFIRMATORY.md": "5f62d5c2047b64d8b7316451e319dbfa98a609d1d3215a71bb4835573b63ffc6",
     "reports/CLAIM_EVIDENCE_MAP.md": "de47a70e47a3049c517561ff4bc314d91e041c5c5096a704555bbdb9ffa8c9d2",
     "reports/confirmatory/figures/accuracy-cost-circuit32-on-circuit32.svg": "254e338b3db5a78ac1cca5c38600cc28c090533b08b255a4f6e031a15e477369",
@@ -93,6 +94,7 @@
     "reports/confirmatory/manifest.json": "cee457de2b89309b593997edfd81228c123b6636ce10357ecb71f17015a0da2a",
     "reports/confirmatory/RESULTS.md": "f73326c6c6e4380caf03874788a0a19c27b91ed18728413ce7799126579fc2bf",
     "reports/confirmatory/summary.json": "97648947379f2d694f3e851562ca5c9c4e259f6d4cf3743b4eb7821cc2e9b686",
+    "reports/environment-cpu-windows.lock.txt": "ab9c742d1577c3727950680089a6267aaf8f691f507347a533d24a8ba81dbbda",
     "reports/figures/prompt05b/circuit-decay-K1.svg": "31d701f5db6783cf865f0281a8145d8d8525833fd267b203e9a85889874d8c6e",
     "reports/figures/prompt05b/circuit-decay-K2.svg": "f2038cd88ff6dc76c3005b2965d731f3b0e50c3862a3769fb989488c005de2cd",
     "reports/figures/prompt05b/circuit-depth-decay-K1.svg": "4145c5a33bb63124674548fb18c232d906a2ea36b9c89afa1c9260b8a80629d7",
@@ -118,7 +120,7 @@
     "reports/paper/MANUSCRIPT.md": "d35daa5367ef189ea85fb0be26cef215e68545859e33bdb4faf459590dcaf204",
     "reports/paper/maze_crossover_display.json": "1e87fe09686494787f84267f8c61ecced9acf0e8e13c7da65847b1c43fd42705",
     "reports/paper/RELEASE_MANIFEST.md": "7e7794901d8253a22b4fc98b7a4ffacc678880f3d14617c07bd3d930febc6940",
-    "reports/paper/REPRODUCIBILITY.md": "bfaf5722bad54e3dac296a871c2a9bd2f99b4cb383c0797fb14b9500ca7b7c58",
+    "reports/paper/REPRODUCIBILITY.md": "1d54b97bb35f238c64dcc91fc9a1cd1a5bc7c8aaa28d8254879b98b055fb08e6",
     "reports/paper/review_revision/datasets/circuit32-test.json": "2400a6e6b134ae9238c8c329698196b049081dac247e90c0b52f17a80034b130",
     "reports/paper/review_revision/datasets/circuit48-test.json": "82cd01ca536cafbda179fcdc91eb3558f3b42417524e93fe9a563f9b2bd219f9",
     "reports/paper/review_revision/datasets/circuit64-test.json": "cd219860a67f0f3b6fff4f9c4308465a18d515218c9950ab6f87fa5ceb11096c",
@@ -136,7 +138,7 @@
     "reports/paper/review_revision/validation.json": "fc05d3d9001d9de1d5759e3221ddcf2eabefd887d94c79c44024e3e49c35276d",
     "reports/paper/seed_matched_lesions.json": "7937ed1c335365c88353183b7ccb2648c858b35690bb5eab923b71e3f96ca602",
     "reports/PILOT_REPORT.md": "be08678be94327aebcaa7489b5548ce0d5b779ecdc708d0bcda89607b5e63daf",
-    "REPRODUCING.md": "7508ed635694f32cb14c9eb734228ad35c42147a88739f5bec2f51a1cf6b845d",
+    "REPRODUCING.md": "344cca9a3ff33b9190a788e7bbb6baab0d1a53c07411107c7bef82f90cedf877",
     "review_data/primary_episodes.json.gz": "7c0976397f73d22091123c51b47f5f759bb40818006210e1720d3b368d50093f",
     "scripts/analyze_confirmatory_development.py": "6663f9ce26cd0181a486dcbabedd43e03ee2daec2a37260b7bc6bde45e24b532",
     "scripts/analyze_previous_predictions.py": "cc009c7680dba47a2a8d0c4ece72f0a081bfec0d1f3af96956b16b5204fbef04",
@@ -314,6 +316,7 @@
     "tests/test_stream_diagnostics.py": "1902c99d40940289b358a4bed43c0c5d107883fbec2f1e9d1c7aab9655084533",
     "tests/test_stream_step.py": "f8816c6971b217a498f8bc65e6e3faa3d51e45c30ca403d11ea0e1aceb5ea406",
     "tests/test_training.py": "9b24a89b12413ebe7a720156d76fc24b9940153885118f7043e4049db3d95674",
-    "tests/test_types.py": "30ef1772a13476d8631a1094853cf0f576ed9e1548c86f8c311f048e84b4efdf"
+    "tests/test_types.py": "30ef1772a13476d8631a1094853cf0f576ed9e1548c86f8c311f048e84b4efdf",
+    "VALIDATION.md": "646c59f08f1d3252e61c122e8b184f5111d7ff7a25d63d0884c178eacbeb2913"
   }
 }

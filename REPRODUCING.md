@@ -189,7 +189,13 @@ Use a separate copy of the original snapshot with the archived bound
 prerequisites restored at their recorded paths. These include the original
 training/validation datasets, selection records, startup acceptance record and
 other artifacts named by the frozen configuration. A source-only checkout or
-the bounded supplement is insufficient. In that original environment, validate
+the bounded supplement is insufficient. The launch guard requires the restored
+source and protocol to be committed locally. If using the source ZIP rather
+than the original Git checkout, initialize a new Git repository there, disable
+line-ending conversion (`git config core.autocrlf false`), and commit the restored
+source files and protocol. This new local commit identifies the reproduction
+checkout; it does not reconstruct the original research Git history. Keep
+`runs/` untracked. In that original-source environment, validate
 the binding without launching a job:
 
 ```powershell
